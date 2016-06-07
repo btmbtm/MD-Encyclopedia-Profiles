@@ -44,11 +44,146 @@ main{
     width: 90%;
 }   
 
-main h1{
-    font-weight: normal;
+.skills h1{
     color: #E737BA
 }
 
+.skills h1, h2, h3,h4,h5, h6{
+    font-weight: normal;
+}
+
 .skills{
+    margin: auto;
     text-align: center;
+    width: 60%;
+    position: relative;
+
+    
+}
+
+.skills figure{
+    position: relative;
+    margin-bottom: 120px;
+    width: 400px;
+}
+
+.skills figure .redHeader{
+    margin-bottom: 65px;
+    color:#FC5E5F;
+    font-size: 20px;
+}
+
+.skills figure .blueHeader{
+    margin-bottom: 65px;
+    color:#4A70EB;
+    font-size: 20px;
+
+}
+
+.skills figure .grayHeader{
+    margin-bottom: 65px;
+    color: #010101;
+    font-size: 20px;
+
+}
+
+.skills figure ul {
+    text-align: right;
+    list-style: none;
+    margin-top: -5px;
+    margin-right: 25px;
+    padding: 0;    
+    display: inline-block;
+    vertical-align: top;
+}
+
+.skills figure ul li {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.skills figure ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.skills .graph{
+    border-bottom: 3px solid gray;
+    
+}
+.skills label {
+    text-align: left;
+    font-size: 10px;
+}
+
+.skills .barHolder{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.skills .bar{
+    display: inline-block;
+    width: 34px; 
+    margin-right: 20px;
+    margin-bottom: -5px;
+    
+}
+
+.skills .orangeBar{
+    background-color: #FFAC42;
+}
+
+.skills .blueBar{
+    background-color: #38B9F0;
+}
+
+.skills .greenBar{
+    background-color: #6AD12C;
+}
+
+.skills .pinkBar{
+    background-color: #FA8AB0;
+}
+
+.skills .yellowBar{
+    background-color: #F0E210;
+}
+
+.skills .expertBar{
+    height: 185px;
+}
+
+.skills .proficientBar{
+    height: 135px;
+}
+
+.skills .competentBar{
+    height: 90px;
+    
+}
+
+.skills .learningBar{
+    height: 40px;
+}
+
+.skills label{
+    color: gray;
+    position: absolute;
+    font-size: 15px;
+    bottom: -30px;
+    left: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 200px;
+    /* Safari */
+    -webkit-transform: rotate(45deg);
+
+    /* Firefox */
+    -moz-transform: rotate(45deg);
+
+    /* IE */
+    -ms-transform: rotate(45deg);
+    transform-origin: 0% 10%;
+    /* Opera */
+    -o-transform: rotate(45deg);
 }
