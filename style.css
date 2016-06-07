@@ -6,6 +6,9 @@ body {
     background-color: #F5F5F5;
 }
 
+
+/* HEADER CSS */
+
 header {
     background-color: #FFFFFF;
     font-family: 'Roboto Slab', serif;
@@ -43,6 +46,72 @@ header .logo strong {
 main {
     font-family: 'Roboto', serif;
     margin: 50px auto;
+}
+
+
+/* BIOTRIVIAWORK SECTION CSS */
+
+section.bioTriviaWork {
+    width: 90%;
+    height: 560px;
+    margin: auto;
+    position: relative;
+}
+
+.bioTriviaWork h2,
+h3 {
+    color: #9B49EA;
+}
+
+.bioTriviaWork .bioTriv {
+    width: 66%;
+    float: left;
+    background-color: white;
+    padding: 30px;
+    height: 560px;
+}
+
+.bioTriviaWork .bioTriv p {
+    margin: 20px 0;
+    line-height: 1.5em;
+}
+
+.bioTriviaWork .workHist {
+    width: 33%;
+    float: left;
+    padding: 30px;
+}
+
+.bioTriviaWork .workHist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bioTriviaWork .workHist ul li .activeJob .workTitle {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.bioTriviaWork .workHist ul li .activeJob .workInfo {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    color: gray;
+}
+
+.bioTriviaWork .workHist ul li .pastJob .workTitle {
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: gray;
+    font-weight: bolder;
+}
+
+.bioTriviaWork .workHist ul li .pastJob .workInfo {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: gray;
 }
 
 
@@ -103,12 +172,10 @@ h6 {
     font-weight: normal;
 }
 
-
 .skills figure {
     position: relative;
     margin: 0 0 120px 0;
     width: 400px;
-
 }
 
 .skills figure .redHeader {
@@ -390,16 +457,17 @@ p {
     background-color: #F1F8FF;
     width: 100%;
 }
-S
 
 #commentsAnswers .scrollBox {
     background-color: #F9F3FF;
     width: 100%;
 }
-#commentsAnswers .commentYear{
+
+#commentsAnswers .commentYear {
     color: #525252;
 }
-#commentsAnswers hr{
+
+#commentsAnswers hr {
     border: none;
     height: 1px;
     background-color: lightgray;
@@ -410,7 +478,7 @@ S
     border-bottom: 1px solid #DACBF4;
 }
 
-#commentsAnswers .loadMore{
+#commentsAnswers .loadMore {
     color: #B693F6;
 }
 
