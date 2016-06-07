@@ -3,19 +3,19 @@
 }
 
 body {
-    background-color:#F5F5F5;
+    background-color: #F5F5F5;
 }
 
 header {
-    background-color: white;
+    background-color: #FFFFFF;
     font-family: 'Roboto Slab', serif;
     height: 55px;
-    margin: auto;    
+    margin: auto;
     overflow: auto;
     width: 100%;
 }
 
-header input[type="textbox"]{
+header input[type="textbox"] {
     border: 1px solid #8C40BC;
     color: #8C40BC;
     float: right;
@@ -25,66 +25,110 @@ header input[type="textbox"]{
     width: 300px;
 }
 
-header .logo{
+header .logo {
     float: left;
     font-size: 20px;
     font-weight: 300;
     margin-left: 5%;
+    margin-top: 10px;
     width: 45%;
+    vertical-align: bottom;
 }
 
-header .logo strong{
+header .logo strong {
     color: #8C40BC;
     font-weight: bold;
 }
 
-main{
+main {
     font-family: 'Roboto', serif;
     margin: 50px auto;
-    width: 90%;
-}   
-
-.skills h1{
-    color: #E737BA
 }
 
-.skills h1, h2, h3,h4,h5, h6{
+
+/* SKILLS SECTION CSS */
+
+section.skills {
+    width: 60%;
+}
+
+.skills h1 {
+    color: #E737BA;
+    font-size: 2em;
+    font-weight: normal;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.skills h3.subtitle {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: #525252;
+}
+
+.skills .skillBar {
+    height: 25px;
+    float: left;
+    vertical-align: middle;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding: 2px 10px 0 10px;
+    font-weight: bold;
+}
+
+.skills .skillBarLeft {
+    width: 69%;
+    background-color: #FC5E5F;
+    text-align: left;
+}
+
+.skills .skillBarRight {
+    width: 30%;
+    background-color: #4a70eb;
+    text-align: right;
+}
+
+.skills h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
 }
 
-.skills{
+.skills {
     margin: auto;
     text-align: center;
     width: 60%;
     position: relative;
-
-    
+    margin-bottom: 200px;
 }
 
-.skills figure{
+.skills figure {
     position: relative;
     margin-bottom: 120px;
     width: 400px;
 }
 
-.skills figure .redHeader{
+.skills figure .redHeader {
     margin-bottom: 65px;
-    color:#FC5E5F;
+    color: #FC5E5F;
     font-size: 20px;
 }
 
-.skills figure .blueHeader{
+.skills figure .blueHeader {
     margin-bottom: 65px;
-    color:#4A70EB;
+    color: #4A70EB;
     font-size: 20px;
-
 }
 
-.skills figure .grayHeader{
+.skills figure .grayHeader {
     margin-bottom: 65px;
     color: #010101;
     font-size: 20px;
-
 }
 
 .skills figure ul {
@@ -92,7 +136,7 @@ main{
     list-style: none;
     margin-top: -5px;
     margin-right: 25px;
-    padding: 0;    
+    padding: 0;
     display: inline-block;
     vertical-align: top;
 }
@@ -106,67 +150,66 @@ main{
     margin-bottom: 0px;
 }
 
-.skills .graph{
-    border-bottom: 3px solid gray;
-    
+.skills .graph {
+    border-bottom: 1px solid gray;
 }
+
 .skills label {
     text-align: left;
     font-size: 10px;
 }
 
-.skills .barHolder{
+.skills .barHolder {
     display: inline-block;
     padding: 0;
     margin: 0;
     position: relative;
 }
-.skills .bar{
+
+.skills .bar {
     display: inline-block;
-    width: 34px; 
+    width: 34px;
     margin-right: 20px;
     margin-bottom: -5px;
-    
 }
 
-.skills .orangeBar{
+.skills .orangeBar {
     background-color: #FFAC42;
 }
 
-.skills .blueBar{
+.skills .blueBar {
     background-color: #38B9F0;
 }
 
-.skills .greenBar{
+.skills .greenBar {
     background-color: #6AD12C;
 }
 
-.skills .pinkBar{
+.skills .pinkBar {
     background-color: #FA8AB0;
 }
 
-.skills .yellowBar{
+.skills .yellowBar {
     background-color: #F0E210;
 }
 
-.skills .expertBar{
+.skills .expertBar {
     height: 185px;
 }
 
-.skills .proficientBar{
+.skills .proficientBar {
     height: 135px;
 }
 
-.skills .competentBar{
+.skills .competentBar {
     height: 90px;
-    
 }
 
-.skills .learningBar{
+.skills .learningBar {
     height: 40px;
 }
 
-.skills label{
+.skills label {
     color: gray;
     position: absolute;
     font-size: 15px;
@@ -177,13 +220,216 @@ main{
     width: 200px;
     /* Safari */
     -webkit-transform: rotate(45deg);
-
     /* Firefox */
     -moz-transform: rotate(45deg);
-
     /* IE */
     -ms-transform: rotate(45deg);
-    transform-origin: 0% 10%;
     /* Opera */
     -o-transform: rotate(45deg);
+    transform-origin: 0% 10%;
+}
+
+
+/* TWEETS ARTICLES COMMENTS SECTION CSS */
+
+.tweetsArticlesComments {
+    background-color: #FFF;
+    height: 650px;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 50px;
+}
+
+.tweetsArticlesComments #tweets h2,
+#articles h2,
+#commentsAnswers h2 {
+    margin-left: 25px;
+}
+
+.tweetsArticlesComments .scrollBox {}
+
+.scrollBox::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+.tweetsArticlesComments ul {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.tweetsArticlesComments #tweets li {
+    height: 105px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.tweetsArticlesComments #tweets li::last-child {
+    padding-bottom: 0;
+}
+
+#tweets .scrollBox ul {
+    margin: auto;
+    border-bottom: 1px solid #9fe1f3;
+}
+
+#tweets .loadMore {
+    color: #46b9d5;
+    text-align: center;
+}
+
+.tweetPic {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    float: left;
+}
+
+.tweetsArticlesComments .tweetBody {
+    width: calc(95% - 50px);
+    float: left;
+    margin-left: 8px;
+}
+
+.tweetsArticlesComments .tweetBody h4,
+p {
+    margin: 0 0 4px 0;
+}
+
+.tweetBody h4 {
+    font-weight: 500;
+}
+
+.tweetBody h4::after {
+    content: " @paul_irish";
+    color: gray;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.tweetContent {
+    margin: 5px 0;
+}
+
+.tweetDateStamp {
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tweetAt {
+    text-decoration: none;
+}
+
+.tweetsArticlesComments .highlightScrollBox {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.tweetsArticlesComments .highlightScrollBox:last-child {
+    margin-right: 0px;
+}
+
+.tweetsArticlesComments .highlightScrollBox .scrollBox {
+    height: 450px;
+    padding-left: 30px;
+}
+
+#tweets .scrollBox {
+    background-color: #EDFBFE;
+    width: 100%;
+}
+
+#articles ul li {
+    margin: 10px 0;
+}
+
+.articleYear {
+    color: #525252;
+}
+
+.articleTitle {
+    color: #2b4fbf;
+    margin: 0;
+    font-weight: 450;
+}
+
+.articleInfo {
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.loadMore {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    vertical-align: text-bottom;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+#articles .loadMore {
+    color: #92a3e5;
+}
+
+#articles ul {
+    border-bottom: 1px solid #92a3e5;
+    ;
+}
+
+#articles .scrollBox {
+    background-color: #F1F8FF;
+    width: 100%;
+}
+S
+
+#commentsAnswers .scrollBox {
+    background-color: #F9F3FF;
+    width: 100%;
+}
+#commentsAnswers .commentYear{
+    color: #525252;
+}
+#commentsAnswers hr{
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+}
+
+#commentsAnswers ul {
+    color: #38353E;
+    border-bottom: 1px solid #DACBF4;
+}
+
+#commentsAnswers .loadMore{
+    color: #B693F6;
+}
+
+.scrollBox ul {
+    list-style: none;
+}
+
+#commentsAnswers ul li {
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.commentContent {
+    padding: 5px 0;
+}
+
+.commentInfo {
+    color: gray;
+    font-size: 14px;
 }
