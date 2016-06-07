@@ -50,6 +50,10 @@ main {
 
 section.skills {
     width: 60%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 200px;
 }
 
 .skills h1 {
@@ -99,18 +103,12 @@ h6 {
     font-weight: normal;
 }
 
-.skills {
-    margin: auto;
-    text-align: center;
-    width: 60%;
-    position: relative;
-    margin-bottom: 200px;
-}
 
 .skills figure {
     position: relative;
-    margin-bottom: 120px;
+    margin: 0 0 120px 0;
     width: 400px;
+
 }
 
 .skills figure .redHeader {
