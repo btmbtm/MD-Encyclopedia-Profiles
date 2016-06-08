@@ -48,6 +48,89 @@ main {
     margin: 50px auto;
 }
 
+/* introHeader SECTION CSS */
+
+.introHead , .contrib {
+    width:90%;
+    height:350px;
+    border:1px solid;
+    margin:auto;
+}
+
+
+#introPic{
+    width:30%;
+    height:100%;
+    float:left;
+    background-image:url("images/paulirish.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#introCopy{
+    float:left;
+    width:70%;
+    height:350px;
+    background-image:url("images/purple-pattern.png");
+}
+
+#introCopy h1{
+    color: #ffffff;
+    font-weight: 200;
+    font-size:3em;
+    padding:2% 0 0 3%;
+    font-family: 'Roboto', serif;
+}
+
+.bioCopy{
+    color:#FFFFFF;
+    font-weight:200;
+    font-size:.8em;
+    margin: 0 3% 2% 3%;
+    line-height:1.5em;
+    border:1px solid;
+}
+
+.contrib{
+    background-color:#FFFFFF;
+}
+.contrib h2 {
+    margin-top:3%;
+    color:#E737BA;
+    text-align:center;
+}
+
+#icons{
+    width:90%;
+    margin:auto;
+    margin-top:50px;
+    border:1px solid;
+}
+
+.fa-icons{
+    display:inline;
+    margin-top:5%;
+}
+
+#icons .fa{
+    margin-left:5%;
+}
+
+.fa-twitter, #twitter-text{
+    color:#4FCBF1;
+}
+
+.fa-map-marker, #map-marker-text{
+    color:#FB91C1;
+}
+
+.fa-github, #github-text{
+    color:#D9D7DA;
+}
+
+.fa-globe , .globe-text{
+    color:#DBB8F4;
+}
 
 /* BIOTRIVIAWORK SECTION CSS */
 
