@@ -21,15 +21,25 @@ header {
 
 header input[type="textbox"] {
     border: 1px solid #D0D0D0;
+    border-right:none;
     color: #D0D0D0;
     float: right;
     height: 36px;
-    margin-right: 5%;
     padding: 5px;
-    width: 300px;
+    width: 243px;
     outline:none;
     font-size:1em;
     font-weight:100;
+}
+
+#search-button{
+    width:36px;
+    height:36px;
+    border:1px solid #D0D0D0;
+    border-left:none;
+    background:url(images/magnifier.png) 1px 3px;
+    float:right;
+    margin-right: 5%;
 }
 
 .circle{
@@ -141,7 +151,7 @@ main {
     color:#FB91C1;
 }
 
-.fa-github, #github-text{
+#intro-icon-github, #github-text{
     color:#D9D7DA;
 }
 
@@ -200,7 +210,7 @@ main {
     color:#6681DA;
 }
 
-.fa-icons.github-text-contrib,.fa.fa-github {
+.fa-icons.github-text-contrib, .fa.fa-github {
     color:#575757;
 }
 
