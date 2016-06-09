@@ -186,28 +186,48 @@ section.bioTriviaWork {
     height: 560px;
     margin: auto;
     position: relative;
+
 }
 
-.bioTriviaWork h2,
+.bioTriviaWork .bioTriv h2,
 h3 {
     color: #9B49EA;
+    margin-top: 15.5px;
+    font-size: 23px;
+    font-weight: 450;
 }
 
 .bioTriviaWork .bioTriv {
-    width: 66%;
+    width: 64%;
     float: left;
     background-color: white;
     padding: 30px;
-    height: 560px;
+    padding-right: 50px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
 }
 
 .bioTriviaWork .bioTriv p {
     margin: 20px 0;
-    line-height: 1.5em;
+    line-height: 1.6em;
+    font-size: 16.5px;
+    margin-bottom: 35px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+
+}
+
+.bioTriviaWork .bioTriv i {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: #9B49EA;
+    font-weight: bold;
 }
 
 .bioTriviaWork .workHist {
-    width: 33%;
+    width: 29%;
     float: left;
     padding: 30px;
 }
@@ -220,7 +240,9 @@ h3 {
 
 .bioTriviaWork .workHist ul li .activeJob .workTitle {
     margin-bottom: 5px;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #252525;
 }
 
 .bioTriviaWork .workHist ul li .activeJob .workInfo {
@@ -232,7 +254,7 @@ h3 {
 
 .bioTriviaWork .workHist ul li .pastJob .workTitle {
     margin-bottom: 5px;
-    font-size: 15px;
+    font-size: 16px;
     color: gray;
     font-weight: bolder;
 }
@@ -275,8 +297,8 @@ section.skills {
     float: left;
     vertical-align: middle;
     color: white;
-    margin-top: 30px;
-    margin-bottom: 25px;
+    margin-top: 55px;
+    margin-bottom: 40px;
     padding: 2px 10px 0 10px;
     font-weight: bold;
 }
@@ -337,8 +359,8 @@ h6 {
 }
 
 .skills figure ul li {
-    margin-bottom: 30px;
-    font-size: 14px;
+    margin-bottom: 33px;
+    font-size: 13.5px;
 }
 
 .skills figure ul li:last-child {
@@ -406,9 +428,11 @@ h6 {
 
 .skills label {
     color: gray;
+    padding: 0;
     position: absolute;
-    font-size: 15px;
-    bottom: -30px;
+    font-size: 13.5px;
+    font-weight: 500;
+    bottom: -20px;
     left: 20px;
     text-align: left;
     display: inline-block;
@@ -435,20 +459,22 @@ h6 {
     padding-top: 50px;
 }
 
+.tweetsArticlesComments .highlightScrollBox{
+    position: relative;
+}
+
 .tweetsArticlesComments #tweets h2,
 #articles h2,
 #commentsAnswers h2 {
     margin-left: 25px;
 }
 
-.tweetsArticlesComments .scrollBox {}
-
 .scrollBox::-webkit-scrollbar {
     width: 9px;
     height: 9px;
 }
 
-.tweetsArticlesComments ul {
+.tweetsArticlesComments ul.scrollList {
     overflow: scroll;
     overflow-x: hidden;
     height: 400px;
@@ -458,21 +484,57 @@ h6 {
     width: 100%;
 }
 
-.tweetsArticlesComments #tweets li {
-    height: 105px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    border-bottom: 1px solid lightgray;
+.tweetsArticlesComments #tweets ul.scrollList {
+    padding-top: 20px;
+}
+
+.tweetsArticlesComments #tweets ul.scrollList li {
+    height: 80px;
 }
 
 .tweetsArticlesComments #tweets li::last-child {
     padding-bottom: 0;
 }
 
-#tweets .scrollBox ul {
-    margin: auto;
+#tweets button.addTwitter{
+    width: 145px;
+    height: 25px;
+    color: white;
+    background-color: #34B7E5; 
+    border: none;
+    
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 1px;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+} 
+#tweets h2{
+    display: inline-block;
+}
+#tweets button.addTwitter i{
+    margin-left: 5px;
+    margin-right: 3px;
+} 
+
+#tweets button.addTwitter i{
+    margin-left: 5px;
+    margin-right: 3px;
+} 
+
+#twitterButtonGray{
+    color: #B6E5F9;
+}
+#tweets .scrollBox ul.scrollList {
     border-bottom: 1px solid #9fe1f3;
+}
+#tweets .scrollBox ul.scrollList hr{
+    border: none;
+    height: 1px;
+    background-color: lightgray;
 }
 
 #tweets .loadMore {
@@ -491,6 +553,7 @@ h6 {
     width: calc(95% - 50px);
     float: left;
     margin-left: 8px;
+    font-size: 15px;
 }
 
 .tweetsArticlesComments .tweetBody h4,
@@ -511,12 +574,35 @@ p {
 
 .tweetContent {
     margin: 5px 0;
+    font-size: 14px;
+    font-weight: 305;
 }
 
 .tweetDateStamp {
-    color: gray;
-    font-size: 14px;
+    color: #839AA5;
+    font-size: 13px;
     font-weight: 500;
+
+}
+
+ul.tweetDateStamp{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+ul.tweetDateStamp li{
+    display: inline;
+    border: none;
+    margin-right: 40px;
+    color: #839AA5;
+    font-weight: normal;
+}
+
+ul.tweetDateStamp li i{
+    color: #9EB4C1;
+    font-weight: bolder;
 }
 
 .tweetAt {
@@ -543,25 +629,42 @@ p {
     width: 100%;
 }
 
-#articles ul li {
-    margin: 10px 0;
+#articles  ul.scrollList>li {
+    margin: 13px 0;
+    width: 85%;
 }
 
-.articleYear {
+.articleYear, .commentYear {
     color: #525252;
+    font-size: 18.5px;
+    font-family: 'Roboto', serif;
+    margin: 20px 0 5px 0;
+    font-weight: 500;
 }
 
 .articleTitle {
     color: #2b4fbf;
     margin: 0;
-    font-weight: 450;
+    padding: 0;
+    font-weight: 350;
+    font-size: 17px;
 }
 
 .articleInfo {
-    color: gray;
-    font-size: 12px;
-    margin: 0;
-    padding: 5px 0;
+    color: #A5AAB0;
+    font-size: 12.5px;
+    font-weight: 550;
+    
+    padding: 2px 0;
+}
+
+.articleInfo  li{
+    display: inline;
+    color: #A5AAB0;
+    font-size: 12.5px;
+    font-weight: 550;
+    margin-right: 20px;
+    padding: 2px 0;
 }
 
 .loadMore {
@@ -578,7 +681,7 @@ p {
     color: #92a3e5;
 }
 
-#articles ul {
+#articles ul.scrollList {
     border-bottom: 1px solid #92a3e5;
     ;
 }
@@ -593,17 +696,14 @@ p {
     width: 100%;
 }
 
-#commentsAnswers .commentYear {
-    color: #525252;
-}
-
 #commentsAnswers hr {
     border: none;
     height: 1px;
     background-color: lightgray;
+    margin: 12px 0;
 }
 
-#commentsAnswers ul {
+#commentsAnswers ul.scrollList {
     color: #38353E;
     border-bottom: 1px solid #DACBF4;
 }
@@ -622,10 +722,19 @@ p {
 }
 
 .commentContent {
+    font-size: 15px;
     padding: 5px 0;
+    line-height: 1.5em;
 }
 
-.commentInfo {
-    color: gray;
-    font-size: 14px;
+ul.commentInfo {
+   list-style: none;
+   padding: 0;
+   border: none;
+}
+ul.commentInfo li {
+    color: #A7A4AD;
+    font-size: 13px;
+    font-weight: normal;
+    display: inline;
 }
