@@ -136,14 +136,18 @@ main {
     width:200px;
     height:175px;
     background-color:#F8F8F8;
-    margin-left:7%;
 }
 
 .contrib-content{
-    margin-left:3%;
-    width:50%;
+    width:60%;
     border:1px solid;
     float:left;
+    overflow:hidden;
+    margin-left:3%;
+}
+
+.contrib-content > p{
+    font-size:1em;
 }
 
 #icons{
