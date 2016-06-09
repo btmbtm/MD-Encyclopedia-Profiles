@@ -139,6 +139,13 @@ main {
     margin-left:7%;
 }
 
+.contrib-content{
+    margin-left:3%;
+    width:50%;
+    border:1px solid;
+    float:left;
+}
+
 #icons{
     width:90%;
     margin-top:50px;
