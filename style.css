@@ -274,6 +274,7 @@ main {
 }
 
 .grat-circles {
+    position:relative;
     width: 209px;
     height: 209px;
     border-radius: 50%;
@@ -283,14 +284,64 @@ main {
     margin-top: 0px;
     text-align: center;
     vertical-align:middle;
+    background-color:#FFFFFF;
 }
 
 .grat-circle-text{
     margin:auto;
-    margin-top:28px;
-    width:136px;
+    margin-top:22px;
+    width:75%;
+    margin-bottom:0px;
+    border:1px solid;
+    font-weight:300;
+    color:#404040;
 }
 
+.grat-circles > .button, .grat-circles > #grat-circle-twitter-handle{
+    width:108px;
+    height:32px;
+    background-color:blue;
+    color:white;
+    text-transform: uppercase;
+    font-size:.8em;
+    line-height:34px;
+    border-radius:3px;
+    vertical-align:middle;
+    margin:auto;
+    margin-top:19px;
+    position:absolute;
+    top:63%;
+    left:24%;
+
+}
+
+.grat-circles > #grat-circle-twitter-handle{
+    background-color:#FFFFFF;
+    color:#5AC6E3;
+    text-transform:lowercase;
+    font-size:1em;
+}
+
+.grat-circle-icon{
+    position:absolute;
+    top:39%;
+    left:36%;
+}
+
+#grat-github-icon{
+    color:#414141;
+}
+
+#grat-circle-dollar{
+    color:#404040;
+    font-weight:300;
+    width:152px;
+    height:47px;
+    background-color:#F8F8F8;
+    top:39%;
+    left:12%;
+    padding-top:6px;
+}
 
 /* BIOTRIVIAWORK SECTION CSS */
 
