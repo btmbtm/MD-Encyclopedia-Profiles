@@ -4,6 +4,7 @@
 
 body {
     background-color: #F5F5F5;
+    width: 1600px;
 }
 
 
@@ -216,7 +217,7 @@ main {
 
 /* BIOTRIVIAWORK SECTION CSS */
 
-section.bioTriviaWork {
+.bioTriviaWork {
     width: 90%;
     height: 560px;
     margin: auto;
@@ -273,28 +274,28 @@ h3 {
     padding: 0;
 }
 
-.bioTriviaWork .workHist ul li .activeJob .workTitle {
+.bioTriviaWork .activeJob .workTitle {
     margin-bottom: 5px;
     font-size: 18px;
     font-weight: 500;
     color: #252525;
 }
 
-.bioTriviaWork .workHist ul li .activeJob .workInfo {
+.bioTriviaWork .activeJob .workInfo {
     padding: 0;
     margin: 0;
     font-size: 13px;
     color: gray;
 }
 
-.bioTriviaWork .workHist ul li .pastJob .workTitle {
+.bioTriviaWork .pastJob .workTitle {
     margin-bottom: 5px;
     font-size: 16px;
     color: gray;
     font-weight: bolder;
 }
 
-.bioTriviaWork .workHist ul li .pastJob .workInfo {
+.bioTriviaWork .pastJob .workInfo {
     padding: 0;
     margin: 0;
     font-size: 12px;
@@ -304,12 +305,13 @@ h3 {
 
 /* SKILLS SECTION CSS */
 
-section.skills {
+.skills {
     width: 60%;
     margin: auto;
     text-align: center;
     position: relative;
     margin-bottom: 200px;
+    font-weight: normal;
 }
 
 .skills h1 {
@@ -321,7 +323,6 @@ section.skills {
 }
 
 .skills h3.subtitle {
-    text-align: center;
     padding: 0;
     margin: 0;
     color: #525252;
@@ -365,19 +366,19 @@ h6 {
     width: 400px;
 }
 
-.skills figure .redHeader {
+.skills .redHeader {
     margin-bottom: 65px;
     color: #FC5E5F;
     font-size: 20px;
 }
 
-.skills figure .blueHeader {
+.skills .blueHeader {
     margin-bottom: 65px;
     color: #4A70EB;
     font-size: 20px;
 }
 
-.skills figure .grayHeader {
+.skills .grayHeader {
     margin-bottom: 65px;
     color: #010101;
     font-size: 20px;
@@ -563,10 +564,15 @@ h6 {
 #twitterButtonGray{
     color: #B6E5F9;
 }
-#tweets .scrollBox ul.scrollList {
+
+.scrollBox ul {
+    list-style: none;
+}
+
+#tweets .scrollBox .scrollList {
     border-bottom: 1px solid #9fe1f3;
 }
-#tweets .scrollBox ul.scrollList hr{
+#tweets .scrollList hr{
     border: none;
     height: 1px;
     background-color: lightgray;
@@ -584,19 +590,20 @@ h6 {
     float: left;
 }
 
-.tweetsArticlesComments .tweetBody {
+.tweetBody {
     width: calc(95% - 50px);
     float: left;
     margin-left: 8px;
     font-size: 15px;
 }
 
-.tweetsArticlesComments .tweetBody h4,
+.tweetBody 
 p {
-    margin: 0 0 4px 0;
+    margin-bottom: 4px;
 }
 
 .tweetBody h4 {
+    margin-bottom: 4px;
     font-weight: 500;
 }
 
@@ -627,7 +634,7 @@ ul.tweetDateStamp{
     border: none;
 }
 
-ul.tweetDateStamp li{
+.tweetDateStamp li{
     display: inline;
     border: none;
     margin-right: 40px;
@@ -635,7 +642,7 @@ ul.tweetDateStamp li{
     font-weight: normal;
 }
 
-ul.tweetDateStamp li i{
+.tweetDateStamp li i{
     color: #9EB4C1;
     font-weight: bolder;
 }
@@ -654,7 +661,7 @@ ul.tweetDateStamp li i{
     margin-right: 0px;
 }
 
-.tweetsArticlesComments .highlightScrollBox .scrollBox {
+.tweetsArticlesComments .scrollBox {
     height: 450px;
     padding-left: 30px;
 }
@@ -716,6 +723,12 @@ ul.tweetDateStamp li i{
     color: #92a3e5;
 }
 
+#commentsAnswers .loadMore {
+    color: #B693F6;
+}
+
+
+
 #articles ul.scrollList {
     border-bottom: 1px solid #92a3e5;
     ;
@@ -738,17 +751,9 @@ ul.tweetDateStamp li i{
     margin: 12px 0;
 }
 
-#commentsAnswers ul.scrollList {
+#commentsAnswers .scrollList {
     color: #38353E;
     border-bottom: 1px solid #DACBF4;
-}
-
-#commentsAnswers .loadMore {
-    color: #B693F6;
-}
-
-.scrollBox ul {
-    list-style: none;
 }
 
 #commentsAnswers ul li {
@@ -762,12 +767,13 @@ ul.tweetDateStamp li i{
     line-height: 1.5em;
 }
 
-ul.commentInfo {
+.commentInfo {
    list-style: none;
    padding: 0;
    border: none;
 }
-ul.commentInfo li {
+
+.commentInfo li {
     color: #A7A4AD;
     font-size: 13px;
     font-weight: normal;
