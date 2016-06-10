@@ -263,11 +263,12 @@ main {
 
 .showGrat h2{
     margin-bottom:7px;
+    margin-top:75px;
 }
 
 .grat-circles-container{
     width:80%;
-    margin:auto;
+    margin-left:120px;
     display:block;
     border:1px solid;
     margin-top:40px;
@@ -342,7 +343,7 @@ main {
     width:152px;
     height:47px;
     background-color:#F8F8F8;
-    top:34%;
+    top:4%;
     left:12%;
     padding-top:6px;
 }
@@ -365,6 +366,22 @@ div#thank.grat-circles{
     background-color:#2AB64B;
 }
 
+.circle-sub-text{
+    position:relative;
+    top:155px;
+    white-space: nowrap;
+    font-size: .8em;
+    color:#545454;
+}
+
+#circle-sub-text-middle{
+    position:relative;
+    top:164px;
+}
+
+span.B2B2B2{
+    color:#B2B2B2;
+}
 
 /* BIOTRIVIAWORK SECTION CSS */
 
