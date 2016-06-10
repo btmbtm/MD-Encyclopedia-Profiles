@@ -159,6 +159,23 @@ main {
     color:#DDC1F4;
 }
 
+#header-tab-right{
+    position:absolute;
+    right:0;
+    top:123px;
+    width:41px;
+    height:79px;
+    background-color: #FFFFFF;
+    border:1px solid #E4E4E4;
+    border-right:none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-image:url(images/header-icons.png);
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+}
+
+
 /*CONTRIBUTION SECTION*/
 
 .contrib{
