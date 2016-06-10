@@ -265,6 +265,32 @@ main {
     margin-bottom:7px;
 }
 
+.grat-circles-container{
+    width:80%;
+    margin:auto;
+    display:block;
+    border:1px solid;
+    margin-top:40px;
+}
+
+.grat-circles {
+    width: 209px;
+    height: 209px;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: 0px;
+    text-align: center;
+    vertical-align:middle;
+}
+
+.grat-circle-text{
+    margin:auto;
+    margin-top:28px;
+    width:136px;
+}
+
 
 /* BIOTRIVIAWORK SECTION CSS */
 
