@@ -113,6 +113,22 @@ main {
     padding:0;
 }
 
+
+.button-top-right{
+    position:absolute;
+    top:135px;
+    right:100px;
+    width:160px;
+    height:40px;
+    background-color:#DB3EB1;
+    border-radius:4px;
+    color:#FFFFFF;
+    font-weight:300;
+    font-size:1.1em;
+    text-align:center;
+    padding-top:10px;
+}
+
 .bioCopy{
     color:#FFFFFF;
     font-weight:200;
