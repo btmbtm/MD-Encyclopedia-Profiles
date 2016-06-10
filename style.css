@@ -168,7 +168,7 @@ main {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
-.contrib h2 {
+.contrib h2, .showGrat h2 {
     margin-top:3.5%;
     margin-bottom:4%;
     color:#E737BA;
@@ -203,7 +203,7 @@ main {
 }
 
 .contrib-content{
-    width:380px;
+    width:59%;
     border:1px solid;
     float:left;
     margin-left:3%;
@@ -227,6 +227,26 @@ main {
 
 /* SHOW GRATITUDE SECTION CSS */
 
+.showGrat{
+    width:90%;
+    height:510px;
+    border:1px solid;
+    margin:auto;
+}
+
+.showGrat h4{
+    text-align:center;
+    padding:0;
+    margin-top:0px;
+    color:#3F3F3F;
+    font-weight:300;
+    font-size:1.15em;
+
+}
+
+.showGrat h2{
+    margin-bottom:7px;
+}
 
 
 /* BIOTRIVIAWORK SECTION CSS */
