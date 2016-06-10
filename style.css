@@ -82,7 +82,6 @@ main {
 .introHead , .contrib {
     width:90%;
     height:453px;
-    border:1px solid;
     margin:auto;
 }
 
@@ -99,7 +98,7 @@ main {
 #introCopy{
     float:left;
     width:64%;
-    height:451px;
+    height:100%;
     background-image:url("images/purple-pattern.png");
 }
 
@@ -111,8 +110,23 @@ main {
     margin-top:90px;
     margin-left:40px;
     font-family: 'Roboto', serif;
-    border:1px solid;
     padding:0;
+}
+
+
+.button-top-right{
+    position:absolute;
+    top:135px;
+    right:100px;
+    width:160px;
+    height:40px;
+    background-color:#DB3EB1;
+    border-radius:4px;
+    color:#FFFFFF;
+    font-weight:300;
+    font-size:1.1em;
+    text-align:center;
+    padding-top:10px;
 }
 
 .bioCopy{
@@ -121,7 +135,6 @@ main {
     font-size:1em;
     margin: 0 3% 2% 0;
     font-weight:300;
-    border:1px solid;
     width:70%;
     line-height:1.6em;
 }
@@ -133,7 +146,6 @@ main {
 
 .icons{
     width:90%;
-    border:1px solid;
     margin-top:86px;
 }
 
@@ -141,6 +153,7 @@ main {
     display:inline;
     margin-top:5%;
     margin-right:3%;
+    font-weight:200;
 }
 
 
@@ -160,15 +173,34 @@ main {
     color:#DDC1F4;
 }
 
+#header-tab-right{
+    position:absolute;
+    right:0;
+    top:123px;
+    width:41px;
+    height:79px;
+    background-color: #FFFFFF;
+    border:1px solid #E4E4E4;
+    border-right:none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-image:url(images/header-icons.png);
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+}
+
+
 /*CONTRIBUTION SECTION*/
 
 .contrib{
     background-color:#FFFFFF;
-    border:1px solid green;
+    border:1px solid #E4E4E4;
     height:381px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
 }
-.contrib h2 {
-    margin-top:4.3%;
+.contrib h2, .showGrat h2 {
+    margin-top:3.5%;
     margin-bottom:4%;
     color:#E737BA;
     text-align:center;
@@ -176,9 +208,16 @@ main {
 }
 
 .contrib h3{
-    color:#333333;
-    font-weight:500;
-    margin-top:0;
+    color:#1D1D1D;
+    font-weight:300;
+    margin-top:0px;
+    display:inline;
+
+}
+
+.contrib .fa-angle-down{
+    margin-top:5px;
+    float:right;
 }
 
 .contrib-sections {
@@ -189,22 +228,23 @@ main {
 .contrib-box{
     float:left;
     width:203px;
-    height:175px;
+    height:180px;
     background-color:#F8F8F8;
     margin-left:5%;
 }
 
 .contrib-content{
-    width:380px;
-    border:1px solid;
+    width:59%;
     float:left;
-    overflow:hidden;
     margin-left:3%;
 }
 
 .contrib-content > p{
     font-size:1em;
+    margin-top:10px;
+    line-height:1.5em;
     color:#444444;
+    font-weight:300;
 }
 
 .fa-icons.paulirish{
@@ -213,6 +253,144 @@ main {
 
 .fa-icons.github-text-contrib, .fa.fa-github {
     color:#575757;
+}
+
+/* SHOW GRATITUDE SECTION CSS */
+
+.showGrat{
+    width:90%;
+    height:510px;
+    margin:auto;
+}
+
+.showGrat h4{
+    text-align:center;
+    padding:0;
+    margin-top:0px;
+    color:#3F3F3F;
+    font-weight:300;
+    font-size:1.15em;
+
+}
+
+.showGrat h2{
+    margin-bottom:7px;
+    margin-top:75px;
+}
+
+.grat-circles-container{
+    width:80%;
+    margin-left:120px;
+    display:block;
+    margin-top:40px;
+}
+
+.grat-circles {
+    position:relative;
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: 0px;
+    text-align: center;
+    vertical-align:middle;
+    background-color:#FFFFFF;
+}
+
+.grat-circle-text{
+    margin:auto;
+    margin-top:27px;
+    width:69%;
+    margin-bottom:0px;
+    font-weight:300;
+    color:#404040;
+}
+
+#center-circle-title{
+    margin-top:37px;
+}
+
+.grat-circles > .button, .grat-circles > #grat-circle-twitter-handle{
+    width:108px;
+    height:32px;
+    background-color:blue;
+    color:white;
+    text-transform: uppercase;
+    font-size:.8em;
+    line-height:34px;
+    border-radius:3px;
+    vertical-align:middle;
+    margin:auto;
+    margin-top:19px;
+    position:absolute;
+    top:62%;
+    left:25%;
+
+}
+
+.grat-circles > #grat-circle-twitter-handle{
+    background-color:#FFFFFF;
+    color:#5AC6E3;
+    text-transform:lowercase;
+    font-size:1em;
+}
+
+.grat-circle-icon{
+    position:absolute;
+    top:39%;
+    left:36%;
+}
+
+#grat-github-icon{
+    color:#414141;
+}
+
+#grat-circle-dollar{
+    color:#404040;
+    font-weight:300;
+    width:152px;
+    height:47px;
+    background-color:#F8F8F8;
+    top:4%;
+    left:12%;
+    padding-top:6px;
+}
+
+div#favourite.grat-circles{
+    border-color:#F7EBEF;
+}
+div#tip.grat-circles{
+    border-color:#D6F8DD;
+}
+div#thank.grat-circles{
+    border-color:#D9F1FB;
+}
+
+#favourite-btn{
+    background-color:#EC4C7A;
+}
+
+#send-it-now{
+    background-color:#2AB64B;
+}
+
+.circle-sub-text{
+    position:relative;
+    top:162px;
+    white-space: nowrap;
+    font-size: .8em;
+    color:#545454;
+}
+
+#circle-sub-text-middle{
+    position:relative;
+    top:172px;
+}
+
+span.B2B2B2{
+    color:#B2B2B2;
 }
 
 /* BIOTRIVIAWORK SECTION CSS */
