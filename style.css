@@ -394,7 +394,7 @@ span.B2B2B2{
 
 /* BIOTRIVIAWORK SECTION CSS */
 
-section.bioTriviaWork {
+.bioTriviaWork {
     width: 90%;
     height: 560px;
     margin: auto;
@@ -451,28 +451,28 @@ h3 {
     padding: 0;
 }
 
-.bioTriviaWork .workHist ul li .activeJob .workTitle {
+.bioTriviaWork .activeJob .workTitle {
     margin-bottom: 5px;
     font-size: 18px;
     font-weight: 500;
     color: #252525;
 }
 
-.bioTriviaWork .workHist ul li .activeJob .workInfo {
+.bioTriviaWork .activeJob .workInfo {
     padding: 0;
     margin: 0;
     font-size: 13px;
     color: gray;
 }
 
-.bioTriviaWork .workHist ul li .pastJob .workTitle {
+.bioTriviaWork .pastJob .workTitle {
     margin-bottom: 5px;
     font-size: 16px;
     color: gray;
     font-weight: bolder;
 }
 
-.bioTriviaWork .workHist ul li .pastJob .workInfo {
+.bioTriviaWork .pastJob .workInfo {
     padding: 0;
     margin: 0;
     font-size: 12px;
@@ -482,12 +482,13 @@ h3 {
 
 /* SKILLS SECTION CSS */
 
-section.skills {
+.skills {
     width: 60%;
     margin: auto;
     text-align: center;
     position: relative;
     margin-bottom: 200px;
+    font-weight: normal;
 }
 
 .skills h1 {
@@ -499,7 +500,6 @@ section.skills {
 }
 
 .skills h3.subtitle {
-    text-align: center;
     padding: 0;
     margin: 0;
     color: #525252;
@@ -543,19 +543,19 @@ h6 {
     width: 400px;
 }
 
-.skills figure .redHeader {
+.skills .redHeader {
     margin-bottom: 65px;
     color: #FC5E5F;
     font-size: 20px;
 }
 
-.skills figure .blueHeader {
+.skills .blueHeader {
     margin-bottom: 65px;
     color: #4A70EB;
     font-size: 20px;
 }
 
-.skills figure .grayHeader {
+.skills .grayHeader {
     margin-bottom: 65px;
     color: #010101;
     font-size: 20px;
@@ -674,6 +674,11 @@ h6 {
 
 .tweetsArticlesComments .highlightScrollBox{
     position: relative;
+    height: 480px;
+}
+
+.scrollBox {
+
 }
 
 .tweetsArticlesComments #tweets h2,
@@ -682,26 +687,25 @@ h6 {
     margin-left: 25px;
 }
 
-.scrollBox::-webkit-scrollbar {
-    width: 9px;
-    height: 9px;
+.scrollBox{
+    padding-right: 5px;
+    padding-top: 20px;
 }
 
-.tweetsArticlesComments ul.scrollList {
+.tweetsArticlesComments .scrollList {
     overflow: scroll;
     overflow-x: hidden;
     height: 400px;
     margin: 0;
     padding: 0;
-    margin-top: 0px;
     width: 100%;
 }
 
-.tweetsArticlesComments #tweets ul.scrollList {
-    padding-top: 20px;
+.tweetsArticlesComments #tweets .scrollList {
+    
 }
 
-.tweetsArticlesComments #tweets ul.scrollList li {
+.tweetsArticlesComments #tweets .scrollList li {
     height: 80px;
 }
 
@@ -709,7 +713,7 @@ h6 {
     padding-bottom: 0;
 }
 
-#tweets button.addTwitter{
+#tweets .addTwitter{
     width: 145px;
     height: 25px;
     color: white;
@@ -741,13 +745,22 @@ h6 {
 #twitterButtonGray{
     color: #B6E5F9;
 }
-#tweets .scrollBox ul.scrollList {
-    border-bottom: 1px solid #9fe1f3;
+
+.scrollBox ul {
+    list-style: none;
 }
-#tweets .scrollBox ul.scrollList hr{
+
+#tweets .scrollBox .scrollList {
+    border-bottom: 1px solid #9fe1f3;
+
+}
+#tweets .scrollList hr{
+    clear: both;
     border: none;
     height: 1px;
     background-color: lightgray;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #tweets .loadMore {
@@ -762,19 +775,19 @@ h6 {
     float: left;
 }
 
-.tweetsArticlesComments .tweetBody {
+.tweetBody {
     width: calc(95% - 50px);
     float: left;
     margin-left: 8px;
+    margin: 0 0 0 8px;
     font-size: 15px;
+    padding: 0;
 }
 
-.tweetsArticlesComments .tweetBody h4,
-p {
-    margin: 0 0 4px 0;
-}
 
 .tweetBody h4 {
+    margin-bottom: 4px;
+    margin-top: 0px;
     font-weight: 500;
 }
 
@@ -786,6 +799,8 @@ p {
 }
 
 .tweetContent {
+    vertical-align: top;
+    margin-bottom: 4px;
     margin: 5px 0;
     font-size: 14px;
     font-weight: 305;
@@ -798,14 +813,14 @@ p {
 
 }
 
-ul.tweetDateStamp{
+.tweetDateStamp{
     list-style: none;
     padding: 0;
     margin: 0;
     border: none;
 }
 
-ul.tweetDateStamp li{
+.tweetDateStamp li{
     display: inline;
     border: none;
     margin-right: 40px;
@@ -813,7 +828,7 @@ ul.tweetDateStamp li{
     font-weight: normal;
 }
 
-ul.tweetDateStamp li i{
+.tweetDateStamp li i{
     color: #9EB4C1;
     font-weight: bolder;
 }
@@ -832,8 +847,8 @@ ul.tweetDateStamp li i{
     margin-right: 0px;
 }
 
-.tweetsArticlesComments .highlightScrollBox .scrollBox {
-    height: 450px;
+.tweetsArticlesComments .scrollBox {
+    height: 480px;
     padding-left: 30px;
 }
 
@@ -851,7 +866,7 @@ ul.tweetDateStamp li i{
     color: #525252;
     font-size: 18.5px;
     font-family: 'Roboto', serif;
-    margin: 20px 0 5px 0;
+    margin: 0 0 5px 0;
     font-weight: 500;
 }
 
@@ -884,19 +899,25 @@ ul.tweetDateStamp li i{
     text-align: center;
     height: 50px;
     width: 100%;
-    vertical-align: text-bottom;
-    margin-top: 15px;
+    vertical-align: middle;
+    margin: 0;
     font-size: 14px;
     font-weight: 450;
 }
+
 
 #articles .loadMore {
     color: #92a3e5;
 }
 
-#articles ul.scrollList {
+#commentsAnswers .loadMore {
+    color: #B693F6;
+}
+
+
+
+#articles .scrollList {
     border-bottom: 1px solid #92a3e5;
-    ;
 }
 
 #articles .scrollBox {
@@ -914,19 +935,12 @@ ul.tweetDateStamp li i{
     height: 1px;
     background-color: lightgray;
     margin: 12px 0;
+
 }
 
-#commentsAnswers ul.scrollList {
+#commentsAnswers .scrollList {
     color: #38353E;
     border-bottom: 1px solid #DACBF4;
-}
-
-#commentsAnswers .loadMore {
-    color: #B693F6;
-}
-
-.scrollBox ul {
-    list-style: none;
 }
 
 #commentsAnswers ul li {
@@ -940,14 +954,45 @@ ul.tweetDateStamp li i{
     line-height: 1.5em;
 }
 
-ul.commentInfo {
+.commentInfo {
    list-style: none;
    padding: 0;
    border: none;
 }
-ul.commentInfo li {
+
+.commentInfo li {
     color: #A7A4AD;
     font-size: 13px;
     font-weight: normal;
     display: inline;
 }
+
+    
+.scrollBox ::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(0,0,0,0.0);
+}
+ 
+.scrollBox ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.0); 
+    border-radius: 10px;
+}
+ 
+.scrollBox ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    
+    
+}
+
+#tweets ::-webkit-scrollbar-thumb{
+    background-color:  #ADDEE6;
+}
+
+#articles ::-webkit-scrollbar-thumb{
+    background-color:  #AFC9EA;
+}
+
+#commentsAnswers ::-webkit-scrollbar-thumb{
+    background-color:  #D8C8F5;
+}
+
