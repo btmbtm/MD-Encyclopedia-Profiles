@@ -257,7 +257,7 @@ main {
 /* SHOW GRATITUDE SECTION CSS */
 
 .showGrat{
-    width:90%;
+    width:100%;
     height:510px;
     margin:auto;
 }
@@ -286,9 +286,9 @@ main {
 }
 
 .container-circle-box{
-    width:66%;
+    width:70%;
+    margin-left:19%;
     margin-right:auto;
-    margin-left:auto;
 }
 
 .container-circle {
