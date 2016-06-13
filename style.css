@@ -278,10 +278,19 @@ main {
 }
 
 .grat-circles-container{
-    width:90%;
+    width:100%;
     margin-left:auto;
+    margin-right:auto;
     display:inline-block;
     margin-top:40px;
+    border:1px solid;
+}
+
+.grat-circles-box{
+    border:1px solid;
+    width:66%;
+    margin-right:auto;
+    margin-left:auto;
 }
 
 .grat-circles {
@@ -291,8 +300,8 @@ main {
     border-radius: 50%;
     border: 5px solid black;
     display: inline-block;
-    margin-left: 140px;
     margin-top: 0px;
+    margin-right:0px;
     text-align: center;
     vertical-align:middle;
     background-color:#FFFFFF;
@@ -362,9 +371,19 @@ div#favourite.grat-circles{
 }
 div#tip.grat-circles{
     border-color:#D6F8DD;
+    margin-left:15%;
+    margin-right:5%;
 }
+
+div#thank.grat-circles{
+    border-color:#D6F8DD;
+    display:absolute;
+    right:0px;
+}
+
 div#thank.grat-circles{
     border-color:#D9F1FB;
+    float:right;
 }
 
 #favourite-btn{
