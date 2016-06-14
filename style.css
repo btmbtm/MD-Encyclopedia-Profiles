@@ -84,6 +84,7 @@ main {
     width: 86.5%;
     height: 453px;
     margin: auto;
+    position: relative;
 }
 
 #introPic {
@@ -115,8 +116,8 @@ main {
 
 .intro-button-top-right {
     position: absolute;
-    top: 135px;
-    right: 100px;
+    top: 10px;
+    right: 10px;
     width: 160px;
     height: 40px;
     background-color: #DB3EB1;
@@ -703,6 +704,21 @@ h6 {
     padding-top: 50px;
 }
 
+.highlightScrollBox {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.highlightScrollBox:last-child {
+    margin-right: 0px;
+}
+
+.scrollBox {
+    height: 480px;
+    padding-left: 30px;
+}
+
 .tweetsArticlesComments .highlightScrollBox {
     position: relative;
     height: 480px;
@@ -719,6 +735,10 @@ h6 {
     padding-top: 20px;
 }
 
+.scrollBox ul {
+    list-style: none;
+}
+
 .scrollList {
     overflow-y: scroll;
     overflow-x: hidden;
@@ -728,11 +748,21 @@ h6 {
     width: 100%;
 }
 
-.tweets .scrollList li {
+.loadMore {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.tweetsScrollList li {
     height: 80px;
 }
 
-.tweets li::last-child {
+.tweetsScrollList li::last-child {
     padding-bottom: 0;
 }
 
@@ -752,7 +782,7 @@ h6 {
     top: 25px;
 }
 
-.tweets h2 {
+.tweetsHeader {
     display: inline-block;
 }
 
@@ -771,9 +801,7 @@ h6 {
     color: #B6E5F9;
 }
 
-.scrollBox ul {
-    list-style: none;
-}
+
 
 .tweets .scrollBox .scrollList {
     border-bottom: 1px solid #9fe1f3;
@@ -860,20 +888,7 @@ h6 {
     text-decoration: none;
 }
 
-.tweetsArticlesComments .highlightScrollBox {
-    float: left;
-    width: 30%;
-    margin-right: 20px;
-}
 
-.tweetsArticlesComments .highlightScrollBox:last-child {
-    margin-right: 0px;
-}
-
-.tweetsArticlesComments .scrollBox {
-    height: 480px;
-    padding-left: 30px;
-}
 
 .tweets .scrollBox {
     background-color: #EDFBFE;
@@ -919,15 +934,7 @@ h6 {
     margin-top: 30px;
 }
 
-.loadMore {
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    vertical-align: middle;
-    margin: 0;
-    font-size: 14px;
-    font-weight: 450;
-}
+
 
 .articles .loadMore {
     color: #92a3e5;
