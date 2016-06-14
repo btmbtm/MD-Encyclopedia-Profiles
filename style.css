@@ -19,7 +19,7 @@ header {
     padding-bottom:10px;
 }
 
-header input[type="textbox"] {
+.search-bar {
     border: 1px solid #D0D0D0;
     border-right:none;
     color: #D0D0D0;
@@ -32,7 +32,7 @@ header input[type="textbox"] {
     font-weight:100;
 }
 
-#search-button{
+.search-button{
     width:36px;
     height:36px;
     border:1px solid #D0D0D0;
@@ -42,7 +42,7 @@ header input[type="textbox"] {
     margin-right: 5%;
 }
 
-.circle{
+.modev-icon{
     width:45px;
     height:45px;
     border: solid 5px #C7B7DC;
@@ -56,7 +56,7 @@ header input[type="textbox"] {
 }
 
 
-header .logo {
+.logo {
     float: left;
     font-size: 20px;
     font-weight: 300;
@@ -66,7 +66,7 @@ header .logo {
     vertical-align: bottom;
 }
 
-header .logo strong {
+.logo strong {
     color: #8C40BC;
     font-weight: bold;
 }
@@ -94,14 +94,14 @@ main {
     background-size:cover;
 }
 
-#introCopy{
+.introCopy{
     float:left;
     width:64%;
     height:100%;
     background-image:url("images/purple-pattern.png");
 }
 
-#introCopy h1{
+.introCopy h1{
     color: #ffffff;
     font-weight: 200;
     font-size:3.6em;
@@ -113,7 +113,7 @@ main {
 }
 
 
-.button-top-right{
+.intro-button-top-right{
     position:absolute;
     top:135px;
     right:100px;
@@ -198,7 +198,7 @@ main {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
-.contrib h2, .showGrat h2 {
+.section-header-h2 {
     margin-top:3.5%;
     margin-bottom:4%;
     color:#E737BA;
@@ -206,7 +206,7 @@ main {
     font-size:2em;
 }
 
-.contrib h3{
+.section-header-h3{
     color:#1D1D1D;
     font-weight:300;
     margin-top:0px;
@@ -214,7 +214,7 @@ main {
 
 }
 
-.contrib .fa-angle-down{
+.contrib .contrib-content > i.fa.fa-angle-down{
     margin-top:5px;
     float:right;
 }
@@ -256,13 +256,13 @@ main {
 
 /* SHOW GRATITUDE SECTION CSS */
 
-.showGrat{
-    width:90%;
+#showGrat{
+    width:100%;
     height:510px;
     margin:auto;
 }
 
-.showGrat h4{
+#showGrat h4{
     text-align:center;
     padding:0;
     margin-top:0px;
@@ -272,33 +272,40 @@ main {
 
 }
 
-.showGrat h2{
+#showGrat h2{
     margin-bottom:7px;
     margin-top:75px;
 }
 
-.grat-circles-container{
-    width:80%;
-    margin-left:120px;
-    display:block;
+.container-circle-container{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:inline-block;
     margin-top:40px;
 }
 
-.grat-circles {
+.container-circle-box{
+    width:70%;
+    margin-left:19%;
+    margin-right:auto;
+}
+
+.container-circle {
     position:relative;
     width: 224px;
     height: 224px;
     border-radius: 50%;
     border: 5px solid black;
     display: inline-block;
-    margin-left: 140px;
     margin-top: 0px;
+    margin-right:0px;
     text-align: center;
     vertical-align:middle;
     background-color:#FFFFFF;
 }
 
-.grat-circle-text{
+.inner-circle-text{
     margin:auto;
     margin-top:27px;
     width:69%;
@@ -311,10 +318,9 @@ main {
     margin-top:37px;
 }
 
-.grat-circles > .button, .grat-circles > #grat-circle-twitter-handle{
+.container-circle > .button, .container-circle > #grat-circle-twitter-handle{
     width:108px;
     height:32px;
-    background-color:blue;
     color:white;
     text-transform: uppercase;
     font-size:.8em;
@@ -329,24 +335,24 @@ main {
 
 }
 
-.grat-circles > #grat-circle-twitter-handle{
+.container-circle > #grat-circle-twitter-handle{
     background-color:#FFFFFF;
     color:#5AC6E3;
     text-transform:lowercase;
     font-size:1em;
 }
 
-.grat-circle-icon{
+.inner-circle-icon{
     position:absolute;
-    top:39%;
+    top:32%;
     left:36%;
 }
 
-#grat-github-icon{
+.icon-dark{
     color:#414141;
 }
 
-#grat-circle-dollar{
+.grey-box-small{
     color:#404040;
     font-weight:300;
     width:152px;
@@ -354,17 +360,24 @@ main {
     background-color:#F8F8F8;
     top:4%;
     left:12%;
-    padding-top:6px;
+    padding-top:10px;
 }
 
-div#favourite.grat-circles{
+.light-pink-border{
     border-color:#F7EBEF;
 }
-div#tip.grat-circles{
+
+.light-green-border{
     border-color:#D6F8DD;
 }
-div#thank.grat-circles{
-    border-color:#D9F1FB;
+
+.light-blue-border{
+    border-color:#D8F3FE;
+}
+
+#tip-paul-circle{
+    margin-left:15%;
+    margin-right:15%;
 }
 
 #favourite-btn{
