@@ -8,6 +8,7 @@ body {
 }
 
 
+
 /* HEADER CSS */
 
 header {
@@ -458,7 +459,7 @@ span.B2B2B2 {
 .workHist {
     width: 29%;
     float: left;
-    padding: 30px;
+    padding: 30px 10px 30px 30px;
 }
 
 .workHist ul {
