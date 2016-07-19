@@ -20,6 +20,6 @@ MD Encyclopedia Profiles UI Design Group Project
     - Gratitude Section
   
   2. Encyclopedia Entries: 
-    - HTML `accesskey` attribute
-    - CSS `:target` pseudo-class
-    - JavaScript `String()` function
+    - HTML `<table>` element
+    - CSS `:border-image` 
+    - JavaScript `parseInt()` function
