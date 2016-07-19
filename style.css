@@ -1,0 +1,1026 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+    width: 1600px;
+}
+
+
+
+/* HEADER CSS */
+
+header {
+    background-color: #FFFFFF;
+    font-family: 'Roboto Slab', serif;
+    margin: auto;
+    overflow: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.search-bar {
+    border: 1px solid #D0D0D0;
+    border-right: none;
+    color: #D0D0D0;
+    float: right;
+    height: 36px;
+    padding: 5px;
+    width: 243px;
+    outline: none;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.search-button {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-left: none;
+    background: url(images/magnifier.png) 1px 3px;
+    float: right;
+    margin-right: 5%;
+}
+
+.modev-icon {
+    width: 45px;
+    height: 45px;
+    border: solid 5px #C7B7DC;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    margin-left: 5%;
+    background: url(images/favicon.jpg) no-repeat 1px 2px;
+    background-size: 32px 32px;
+    background-color: #8C40BC;
+}
+
+.logo {
+    float: left;
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: .5%;
+    margin-top: 10px;
+    width: 45%;
+    vertical-align: bottom;
+}
+
+.logo strong {
+    color: #8C40BC;
+    font-weight: bold;
+}
+
+main {
+    font-family: 'Roboto', serif;
+    margin: 50px auto;
+}
+
+
+/* introHeader SECTION CSS */
+
+.introHead,
+.contrib {
+    width: 86.5%;
+    height: 453px;
+    margin: auto;
+    position: relative;
+}
+
+#introPic {
+    width: 36%;
+    height: 100%;
+    float: left;
+    background-image: url("images/paulirish.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.introCopy {
+    float: left;
+    width: 64%;
+    height: 100%;
+    background-image: url("images/purple-pattern.png");
+}
+
+.introCopy h1 {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 3.6em;
+    margin-bottom: 15px;
+    margin-top: 90px;
+    margin-left: 40px;
+    font-family: 'Roboto', serif;
+    padding: 0;
+}
+
+.intro-button-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 160px;
+    height: 40px;
+    background-color: #DB3EB1;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bioCopy {
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 1em;
+    margin: 0 3% 2% 0;
+    font-weight: 300;
+    width: 70%;
+    line-height: 1.6em;
+}
+
+.bioCopy,
+.icons {
+    margin-left: 40px;
+}
+
+.icons {
+    width: 90%;
+    margin-top: 86px;
+}
+
+.fa-icons {
+    display: inline;
+    margin-top: 5%;
+    margin-right: 3%;
+    font-weight: 200;
+}
+
+.fa-twitter,
+#twitter-text {
+    color: #4FCBF1;
+}
+
+.fa-map-marker,
+#map-marker-text {
+    color: #FB91C1;
+}
+
+#intro-icon-github,
+#github-text {
+    color: #D9D7DA;
+}
+
+.fa-globe,
+.globe-text {
+    color: #DDC1F4;
+}
+
+#header-tab-right {
+    position: absolute;
+    right: 0;
+    top: 123px;
+    width: 41px;
+    height: 79px;
+    background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-right: none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    background-image: url(images/header-icons.png);
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+}
+
+
+/*CONTRIBUTION SECTION*/
+
+.contrib {
+    background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    height: 381px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.section-header-h2 {
+    margin-top: 3.5%;
+    margin-bottom: 4%;
+    color: #E737BA;
+    text-align: center;
+    font-size: 2em;
+}
+
+.section-header-h3 {
+    color: #1D1D1D;
+    font-weight: 300;
+    margin-top: 0px;
+    display: inline;
+}
+
+.contrib .contrib-content > i.fa.fa-angle-down {
+    margin-top: 5px;
+    float: right;
+}
+
+.contrib-sections {
+    float: left;
+    width: 50%;
+}
+
+.contrib-box {
+    float: left;
+    width: 203px;
+    height: 180px;
+    background-color: #F8F8F8;
+    margin-left: 5%;
+}
+
+.contrib-content {
+    width: 59%;
+    float: left;
+    margin-left: 3%;
+}
+
+.contrib-content > p {
+    font-size: 1em;
+    margin-top: 10px;
+    line-height: 1.5em;
+    color: #444444;
+    font-weight: 300;
+}
+
+.fa-icons.paulirish {
+    color: #6681DA;
+}
+
+.fa-icons.github-text-contrib,
+.fa.fa-github {
+    color: #575757;
+}
+
+
+/* SHOW GRATITUDE SECTION CSS */
+
+#showGrat {
+    width: 100%;
+    height: 510px;
+    margin: auto;
+}
+
+#showGrat h4 {
+    text-align: center;
+    padding: 0;
+    margin-top: 0px;
+    color: #3F3F3F;
+    font-weight: 300;
+    font-size: 1.15em;
+}
+
+#showGrat h2 {
+    margin-bottom: 7px;
+    margin-top: 75px;
+}
+
+.container-circle-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.container-circle-box {
+    width: 70%;
+    margin-left: 19%;
+    margin-right: auto;
+}
+
+.container-circle {
+    position: relative;
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+}
+
+.inner-circle-text {
+    margin: auto;
+    margin-top: 27px;
+    width: 69%;
+    margin-bottom: 0px;
+    font-weight: 300;
+    color: #404040;
+}
+
+#center-circle-title {
+    margin-top: 37px;
+}
+
+.container-circle > .button,
+.container-circle > #grat-circle-twitter-handle {
+    width: 108px;
+    height: 32px;
+    color: white;
+    text-transform: uppercase;
+    font-size: .8em;
+    line-height: 34px;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 19px;
+    position: absolute;
+    top: 62%;
+    left: 25%;
+}
+
+.container-circle > #grat-circle-twitter-handle {
+    background-color: #FFFFFF;
+    color: #5AC6E3;
+    text-transform: lowercase;
+    font-size: 1em;
+}
+
+.inner-circle-icon {
+    position: absolute;
+    top: 32%;
+    left: 36%;
+}
+
+.icon-dark {
+    color: #414141;
+}
+
+.grey-box-small {
+    color: #404040;
+    font-weight: 300;
+    width: 152px;
+    height: 47px;
+    background-color: #F8F8F8;
+    top: 4%;
+    left: 12%;
+    padding-top: 10px;
+}
+
+.light-pink-border {
+    border-color: #F7EBEF;
+}
+
+.light-green-border {
+    border-color: #D6F8DD;
+}
+
+.light-blue-border {
+    border-color: #D8F3FE;
+}
+
+#tip-paul-circle {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#favourite-btn {
+    background-color: #EC4C7A;
+}
+
+#send-it-now {
+    background-color: #2AB64B;
+}
+
+.circle-sub-text {
+    position: relative;
+    top: 162px;
+    white-space: nowrap;
+    font-size: .8em;
+    color: #545454;
+}
+
+#circle-sub-text-middle {
+    position: relative;
+    top: 172px;
+}
+
+span.B2B2B2 {
+    color: #B2B2B2;
+}
+
+
+/* BIOTRIVIAWORK SECTION CSS */
+
+.bioTriviaWork {
+    width: 90%;
+    height: 560px;
+    margin: auto;
+    position: relative;
+}
+
+.bioTrivWorkHeader {
+    color: #9B49EA;
+    margin-top: 15.5px;
+    font-size: 23px;
+    font-weight: 450;
+}
+
+.bioTriv {
+    width: 64%;
+    float: left;
+    background-color: white;
+    padding: 30px;
+    padding-right: 50px;
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bioTriv p {
+    margin: 20px 0;
+    line-height: 1.6em;
+    font-size: 16.5px;
+    margin-bottom: 35px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+}
+
+.bioTrivMore {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: #9B49EA;
+    font-weight: bold;
+}
+
+.workHist {
+    width: 29%;
+    float: left;
+    padding: 30px 10px 30px 30px;
+}
+
+.workHist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.workInfo {
+    padding: 0;
+    margin: 0;
+    color: gray;
+}
+
+.activeJob .workTitle {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #252525;
+}
+
+
+.activeJob .workInfo {
+    font-size: 13px;
+}
+
+.pastJob .workTitle {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: gray;
+    font-weight: bolder;
+}
+
+.pastJob .workInfo {
+    font-size: 12px;
+}
+
+
+/* SKILLS SECTION CSS */
+
+.skills {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 200px;
+    font-weight: normal;
+}
+
+.skillsHeader {
+    color: #E737BA;
+    font-size: 2em;
+    font-weight: normal;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.skillsHeadersubtitle {
+    padding: 0;
+    margin: 0;
+    color: #525252;
+}
+
+.skillBar {
+    height: 25px;
+    float: left;
+    vertical-align: middle;
+    color: white;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    padding: 2px 10px 0 10px;
+    
+}
+
+.skillBarLeft {
+    width: 69%;
+    background-color: #FC5E5F;
+    text-align: left;
+}
+
+.skillBarRight {
+    width: 30%;
+    background-color: #4a70eb;
+    text-align: right;
+}
+
+.skills h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+.redHeader {
+    margin-bottom: 65px;
+    color: #FC5E5F;
+    font-size: 20px;
+}
+
+.blueHeader {
+    margin-bottom: 65px;
+    color: #4A70EB;
+    font-size: 20px;
+}
+
+.grayHeader {
+    margin-bottom: 65px;
+    color: #010101;
+    font-size: 20px;
+}
+
+.skills figure {
+    position: relative;
+    margin: 0 0 120px 0;
+    width: 400px;
+}
+
+.skills figure ul {
+    text-align: right;
+    list-style: none;
+    margin-top: -5px;
+    margin-right: 25px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.skills figure ul li {
+    margin-bottom: 33px;
+    font-size: 13.5px;
+}
+
+.skills figure ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.graph {
+    border-bottom: 1px solid gray;
+}
+
+.graph ul {
+    text-align: right;
+    list-style: none;
+    margin-top: -5px;
+    margin-right: 25px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.graph ul li {
+    margin-bottom: 33px;
+    font-size: 13.5px;
+}
+
+.graph ul li:last-child {
+    margin-bottom: 0px;
+}
+
+
+.barHolder {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.bar {
+    display: inline-block;
+    width: 34px;
+    margin-right: 20px;
+    margin-bottom: -5px;
+}
+
+.orangeBar {
+    background-color: #FFAC42;
+}
+
+.blueBar {
+    background-color: #38B9F0;
+}
+
+.greenBar {
+    background-color: #6AD12C;
+}
+
+.pinkBar {
+    background-color: #FA8AB0;
+}
+
+.yellowBar {
+    background-color: #F0E210;
+}
+
+.expertBar {
+    height: 185px;
+}
+
+.proficientBar {
+    height: 135px;
+}
+
+.competentBar {
+    height: 90px;
+}
+
+.learningBar {
+    height: 40px;
+}
+
+.barLabel {
+    color: gray;
+    padding: 0;
+    position: absolute;
+    font-size: 13.5px;
+    font-weight: 500;
+    bottom: -20px;
+    left: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 200px;
+    /* Safari */
+    -webkit-transform: rotate(45deg);
+    /* Firefox */
+    -moz-transform: rotate(45deg);
+    /* IE */
+    -ms-transform: rotate(45deg);
+    /* Opera */
+    -o-transform: rotate(45deg);
+    transform-origin: 0% 10%;
+}
+
+
+/* TWEETS ARTICLES COMMENTS SECTION CSS */
+
+.tweetsArticlesComments {
+    background-color: #FFF;
+    height: 650px;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 50px;
+}
+
+.highlightScrollBox {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.highlightScrollBox:last-child {
+    margin-right: 0px;
+}
+
+.scrollBox {
+    height: 480px;
+    padding-left: 30px;
+}
+
+.tweetsArticlesComments .highlightScrollBox {
+    position: relative;
+    height: 480px;
+}
+
+.tweetsArticlesComments .tweets h2,
+.articles h2,
+.commentsAnswers h2 {
+    margin-left: 25px;
+}
+
+.scrollBox {
+    padding-right: 5px;
+    padding-top: 20px;
+}
+
+.scrollBox ul {
+    list-style: none;
+}
+
+.scrollList {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.loadMore {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.tweetsScrollList li {
+    height: 80px;
+}
+
+.tweetsScrollList li::last-child {
+    padding-bottom: 0;
+}
+
+.addTwitter {
+    width: 145px;
+    height: 25px;
+    color: white;
+    background-color: #34B7E5;
+    border: none;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 1px;
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.tweetsHeader {
+    display: inline-block;
+}
+
+.tweets button.addTwitter i {
+    margin-left: 5px;
+    margin-right: 3px;
+}
+
+.addTwitter i {
+    margin-left: 5px;
+    margin-right: 3px;
+    color: white;
+}
+
+#twitterButtonGray {
+    color: #B6E5F9;
+}
+
+
+
+.tweets .scrollBox .scrollList {
+    border-bottom: 1px solid #9fe1f3;
+}
+
+.tweets .scrollList hr {
+    clear: both;
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.tweets .loadMore {
+    color: #46b9d5;
+    text-align: center;
+}
+
+.tweetPic {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    float: left;
+}
+
+.tweetBody {
+    width: calc(95% - 50px);
+    float: left;
+    margin-left: 8px;
+    margin: 0 0 0 8px;
+    font-size: 15px;
+    padding: 0;
+}
+
+.tweetBody h4 {
+    margin-bottom: 4px;
+    margin-top: 0px;
+    font-weight: 500;
+}
+
+.tweetBody h4::after {
+    content: " @paul_irish";
+    color: gray;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.tweetContent {
+    vertical-align: top;
+    margin-bottom: 4px;
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: 305;
+}
+
+.tweetDateStamp {
+    color: #839AA5;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.tweetDateStamp {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.tweetDateStamp li {
+    display: inline;
+    border: none;
+    margin-right: 40px;
+    color: #839AA5;
+    font-weight: normal;
+}
+
+.tweetDateStamp li i {
+    color: #9EB4C1;
+    font-weight: bolder;
+}
+
+.tweetAt {
+    text-decoration: none;
+}
+
+
+
+.tweets .scrollBox {
+    background-color: #EDFBFE;
+    width: 100%;
+}
+
+.articles .scrollList > li {
+    margin: 15px 0;
+    width: 85%;
+}
+
+.articleYear,
+.commentYear {
+    color: #525252;
+    font-size: 19px;
+    font-family: 'Roboto', serif;
+    margin: 0 0 5px 0;
+    font-weight: 500;
+}
+
+.articleTitle {
+    color: #2b4fbf;
+    margin: 0;
+    padding: 0;
+    font-weight: 350;
+    font-size: 17px;
+}
+
+.articleInfo {
+    color: #A5AAB0;
+    font-size: 12.5px;
+    font-weight: 550;
+    padding: 4px 0;
+}
+
+.articleInfo li {
+    display: inline;
+    color: #A5AAB0;
+    font-size: 12.5px;
+    font-weight: 550;
+    margin-right: 20px;
+    padding: 4px 0;
+    margin-top: 30px;
+}
+
+
+
+.articles .loadMore {
+    color: #92a3e5;
+}
+
+
+
+.articles .scrollList {
+    border-bottom: 1px solid #92a3e5;
+}
+
+.articles .scrollBox {
+    background-color: #F1F8FF;
+    width: 100%;
+}
+
+.commentsAnswers .scrollBox {
+    background-color: #F9F3FF;
+    width: 100%;
+}
+
+.commentsAnswers hr {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+    margin: 12px 0;
+}
+
+.commentsAnswers .scrollList {
+    color: #38353E;
+    border-bottom: 1px solid #DACBF4;
+}
+
+.commentsAnswers ul li {
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+.commentsAnswers .loadMore {
+    color: #B693F6;
+}
+
+.commentContent {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    line-height: 1.5em;
+    margin-bottom: 0;
+}
+
+.commentInfo {
+    list-style: none;
+    padding: 0;
+    border: none;
+}
+
+.commentInfo li {
+    color: #A7A4AD;
+    font-size: 13px;
+    font-weight: normal;
+    display: inline;
+}
+
+.scrollList::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.scrollList::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.0);
+    border-radius: 10px;
+}
+
+.scrollList::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+}
+
+.tweets .scrollList::-webkit-scrollbar-thumb {
+    background-color: #ADDEE6;
+}
+
+.articles .scrollList::-webkit-scrollbar-thumb {
+    background-color: #AFC9EA;
+}
+
+.commentsAnswers .scrollList::-webkit-scrollbar-thumb {
+    background-color: #D8C8F5;
+}
