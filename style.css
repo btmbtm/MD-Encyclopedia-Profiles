@@ -4,7 +4,10 @@
 
 body {
     background-color: #F5F5F5;
+    width: 1600px;
+    margin: 0 auto;
 }
+
 
 
 /* HEADER CSS */
@@ -15,46 +18,45 @@ header {
     margin: auto;
     overflow: auto;
     width: 100%;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .search-bar {
     border: 1px solid #D0D0D0;
-    border-right:none;
+    border-right: none;
     color: #D0D0D0;
     float: right;
     height: 36px;
     padding: 5px;
     width: 243px;
-    outline:none;
-    font-size:1em;
-    font-weight:100;
+    outline: none;
+    font-size: 1em;
+    font-weight: 100;
 }
 
-.search-button{
-    width:36px;
-    height:36px;
-    border:1px solid #D0D0D0;
-    border-left:none;
-    background:url(images/magnifier.png) 1px 3px;
-    float:right;
+.search-button {
+    width: 36px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-left: none;
+    background: url(images/magnifier.png) 1px 3px;
+    float: right;
     margin-right: 5%;
 }
 
-.modev-icon{
-    width:45px;
-    height:45px;
+.modev-icon {
+    width: 45px;
+    height: 45px;
     border: solid 5px #C7B7DC;
     border-radius: 50%;
-    float:left;
-    position:relative;
-    margin-left:5%;
+    float: left;
+    position: relative;
+    margin-left: 5%;
     background: url(images/favicon.jpg) no-repeat 1px 2px;
     background-size: 32px 32px;
     background-color: #8C40BC;
 }
-
 
 .logo {
     float: left;
@@ -76,114 +78,118 @@ main {
     margin: 50px auto;
 }
 
+
 /* introHeader SECTION CSS */
 
-.introHead , .contrib {
-    width:90%;
-    height:453px;
-    margin:auto;
+.introHead,
+.contrib {
+    width: 86.5%;
+    height: 453px;
+    margin: auto;
+    position: relative;
 }
 
-
-#introPic{
-    width:36%;
-    height:100%;
-    float:left;
-    background-image:url("images/paulirish.png");
+#introPic {
+    width: 36%;
+    height: 100%;
+    float: left;
+    background-image: url("images/paulirish.png");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
-.introCopy{
-    float:left;
-    width:64%;
-    height:100%;
-    background-image:url("images/purple-pattern.png");
+.introCopy {
+    float: left;
+    width: 64%;
+    height: 100%;
+    background-image: url("images/purple-pattern.png");
 }
 
-.introCopy h1{
+.introCopy h1 {
     color: #ffffff;
     font-weight: 200;
-    font-size:3.6em;
-    margin-bottom:15px;
-    margin-top:90px;
-    margin-left:40px;
+    font-size: 3.6em;
+    margin-bottom: 15px;
+    margin-top: 90px;
+    margin-left: 40px;
     font-family: 'Roboto', serif;
-    padding:0;
+    padding: 0;
 }
 
-
-.intro-button-top-right{
-    position:absolute;
-    top:135px;
-    right:100px;
-    width:160px;
-    height:40px;
-    background-color:#DB3EB1;
-    border-radius:4px;
-    color:#FFFFFF;
-    font-weight:300;
-    font-size:1.1em;
-    text-align:center;
-    padding-top:10px;
+.intro-button-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 160px;
+    height: 40px;
+    background-color: #DB3EB1;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 10px;
 }
 
-.bioCopy{
-    color:#FFFFFF;
-    font-weight:200;
-    font-size:1em;
+.bioCopy {
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 1em;
     margin: 0 3% 2% 0;
-    font-weight:300;
-    width:70%;
-    line-height:1.6em;
+    font-weight: 300;
+    width: 70%;
+    line-height: 1.6em;
 }
 
-.bioCopy, .icons{
-    margin-left:40px;
+.bioCopy,
+.icons {
+    margin-left: 40px;
 }
 
-
-.icons{
-    width:90%;
-    margin-top:86px;
+.icons {
+    width: 90%;
+    margin-top: 86px;
 }
 
-.fa-icons{
-    display:inline;
-    margin-top:5%;
-    margin-right:3%;
-    font-weight:200;
+.fa-icons {
+    display: inline;
+    margin-top: 5%;
+    margin-right: 3%;
+    font-weight: 200;
 }
 
-
-.fa-twitter, #twitter-text{
-    color:#4FCBF1;
+.fa-twitter,
+#twitter-text {
+    color: #4FCBF1;
 }
 
-.fa-map-marker, #map-marker-text{
-    color:#FB91C1;
+.fa-map-marker,
+#map-marker-text {
+    color: #FB91C1;
 }
 
-#intro-icon-github, #github-text{
-    color:#D9D7DA;
+#intro-icon-github,
+#github-text {
+    color: #D9D7DA;
 }
 
-.fa-globe , .globe-text{
-    color:#DDC1F4;
+.fa-globe,
+.globe-text {
+    color: #DDC1F4;
 }
 
-#header-tab-right{
-    position:absolute;
-    right:0;
-    top:123px;
-    width:41px;
-    height:79px;
+#header-tab-right {
+    position: absolute;
+    right: 0;
+    top: 123px;
+    width: 41px;
+    height: 79px;
     background-color: #FFFFFF;
-    border:1px solid #E4E4E4;
-    border-right:none;
+    border: 1px solid #E4E4E4;
+    border-right: none;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
-    background-image:url(images/header-icons.png);
+    background-image: url(images/header-icons.png);
     background-repeat: no-repeat;
     background-position: 4px 6px;
 }
@@ -191,32 +197,32 @@ main {
 
 /*CONTRIBUTION SECTION*/
 
-.contrib{
-    background-color:#FFFFFF;
-    border:1px solid #E4E4E4;
-    height:381px;
+.contrib {
+    background-color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    height: 381px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }
+
 .section-header-h2 {
-    margin-top:3.5%;
-    margin-bottom:4%;
-    color:#E737BA;
-    text-align:center;
-    font-size:2em;
+    margin-top: 3.5%;
+    margin-bottom: 4%;
+    color: #E737BA;
+    text-align: center;
+    font-size: 2em;
 }
 
-.section-header-h3{
-    color:#1D1D1D;
-    font-weight:300;
-    margin-top:0px;
-    display:inline;
-
+.section-header-h3 {
+    color: #1D1D1D;
+    font-weight: 300;
+    margin-top: 0px;
+    display: inline;
 }
 
-.contrib .contrib-content > i.fa.fa-angle-down{
-    margin-top:5px;
-    float:right;
+.contrib .contrib-content > i.fa.fa-angle-down {
+    margin-top: 5px;
+    float: right;
 }
 
 .contrib-sections {
@@ -224,186 +230,188 @@ main {
     width: 50%;
 }
 
-.contrib-box{
-    float:left;
-    width:203px;
-    height:180px;
-    background-color:#F8F8F8;
-    margin-left:5%;
+.contrib-box {
+    float: left;
+    width: 203px;
+    height: 180px;
+    background-color: #F8F8F8;
+    margin-left: 5%;
 }
 
-.contrib-content{
-    width:59%;
-    float:left;
-    margin-left:3%;
+.contrib-content {
+    width: 59%;
+    float: left;
+    margin-left: 3%;
 }
 
-.contrib-content > p{
-    font-size:1em;
-    margin-top:10px;
-    line-height:1.5em;
-    color:#444444;
-    font-weight:300;
+.contrib-content > p {
+    font-size: 1em;
+    margin-top: 10px;
+    line-height: 1.5em;
+    color: #444444;
+    font-weight: 300;
 }
 
-.fa-icons.paulirish{
-    color:#6681DA;
+.fa-icons.paulirish {
+    color: #6681DA;
 }
 
-.fa-icons.github-text-contrib, .fa.fa-github {
-    color:#575757;
+.fa-icons.github-text-contrib,
+.fa.fa-github {
+    color: #575757;
 }
+
 
 /* SHOW GRATITUDE SECTION CSS */
 
-#showGrat{
-    width:100%;
-    height:510px;
-    margin:auto;
+#showGrat {
+    width: 100%;
+    height: 510px;
+    margin: auto;
 }
 
-#showGrat h4{
-    text-align:center;
-    padding:0;
-    margin-top:0px;
-    color:#3F3F3F;
-    font-weight:300;
-    font-size:1.15em;
-
+#showGrat h4 {
+    text-align: center;
+    padding: 0;
+    margin-top: 0px;
+    color: #3F3F3F;
+    font-weight: 300;
+    font-size: 1.15em;
 }
 
-#showGrat h2{
-    margin-bottom:7px;
-    margin-top:75px;
+#showGrat h2 {
+    margin-bottom: 7px;
+    margin-top: 75px;
 }
 
-.container-circle-container{
-    width:100%;
-    margin-left:auto;
-    margin-right:auto;
-    display:inline-block;
-    margin-top:40px;
+.container-circle-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-top: 40px;
 }
 
-.container-circle-box{
-    width:70%;
-    margin-left:19%;
-    margin-right:auto;
+.container-circle-box {
+    width: 70%;
+    margin-left: 19%;
+    margin-right: auto;
 }
 
 .container-circle {
-    position:relative;
+    position: relative;
     width: 224px;
     height: 224px;
     border-radius: 50%;
     border: 5px solid black;
     display: inline-block;
     margin-top: 0px;
-    margin-right:0px;
+    margin-right: 0px;
     text-align: center;
-    vertical-align:middle;
-    background-color:#FFFFFF;
+    vertical-align: middle;
+    background-color: #FFFFFF;
 }
 
-.inner-circle-text{
-    margin:auto;
-    margin-top:27px;
-    width:69%;
-    margin-bottom:0px;
-    font-weight:300;
-    color:#404040;
+.inner-circle-text {
+    margin: auto;
+    margin-top: 27px;
+    width: 69%;
+    margin-bottom: 0px;
+    font-weight: 300;
+    color: #404040;
 }
 
-#center-circle-title{
-    margin-top:37px;
+#center-circle-title {
+    margin-top: 37px;
 }
 
-.container-circle > .button, .container-circle > #grat-circle-twitter-handle{
-    width:108px;
-    height:32px;
-    color:white;
+.container-circle > .button,
+.container-circle > #grat-circle-twitter-handle {
+    width: 108px;
+    height: 32px;
+    color: white;
     text-transform: uppercase;
-    font-size:.8em;
-    line-height:34px;
-    border-radius:3px;
-    vertical-align:middle;
-    margin:auto;
-    margin-top:19px;
-    position:absolute;
-    top:62%;
-    left:25%;
-
+    font-size: .8em;
+    line-height: 34px;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 19px;
+    position: absolute;
+    top: 62%;
+    left: 25%;
 }
 
-.container-circle > #grat-circle-twitter-handle{
-    background-color:#FFFFFF;
-    color:#5AC6E3;
-    text-transform:lowercase;
-    font-size:1em;
+.container-circle > #grat-circle-twitter-handle {
+    background-color: #FFFFFF;
+    color: #5AC6E3;
+    text-transform: lowercase;
+    font-size: 1em;
 }
 
-.inner-circle-icon{
-    position:absolute;
-    top:32%;
-    left:36%;
+.inner-circle-icon {
+    position: absolute;
+    top: 32%;
+    left: 36%;
 }
 
-.icon-dark{
-    color:#414141;
+.icon-dark {
+    color: #414141;
 }
 
-.grey-box-small{
-    color:#404040;
-    font-weight:300;
-    width:152px;
-    height:47px;
-    background-color:#F8F8F8;
-    top:4%;
-    left:12%;
-    padding-top:10px;
+.grey-box-small {
+    color: #404040;
+    font-weight: 300;
+    width: 152px;
+    height: 47px;
+    background-color: #F8F8F8;
+    top: 4%;
+    left: 12%;
+    padding-top: 10px;
 }
 
-.light-pink-border{
-    border-color:#F7EBEF;
+.light-pink-border {
+    border-color: #F7EBEF;
 }
 
-.light-green-border{
-    border-color:#D6F8DD;
+.light-green-border {
+    border-color: #D6F8DD;
 }
 
-.light-blue-border{
-    border-color:#D8F3FE;
+.light-blue-border {
+    border-color: #D8F3FE;
 }
 
-#tip-paul-circle{
-    margin-left:15%;
-    margin-right:15%;
+#tip-paul-circle {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-#favourite-btn{
-    background-color:#EC4C7A;
+#favourite-btn {
+    background-color: #EC4C7A;
 }
 
-#send-it-now{
-    background-color:#2AB64B;
+#send-it-now {
+    background-color: #2AB64B;
 }
 
-.circle-sub-text{
-    position:relative;
-    top:162px;
+.circle-sub-text {
+    position: relative;
+    top: 162px;
     white-space: nowrap;
     font-size: .8em;
-    color:#545454;
+    color: #545454;
 }
 
-#circle-sub-text-middle{
-    position:relative;
-    top:172px;
+#circle-sub-text-middle {
+    position: relative;
+    top: 172px;
 }
 
-span.B2B2B2{
-    color:#B2B2B2;
+span.B2B2B2 {
+    color: #B2B2B2;
 }
+
 
 /* BIOTRIVIAWORK SECTION CSS */
 
@@ -412,18 +420,16 @@ span.B2B2B2{
     height: 560px;
     margin: auto;
     position: relative;
-
 }
 
-.bioTriviaWork .bioTriv h2,
-h3 {
+.bioTrivWorkHeader {
     color: #9B49EA;
     margin-top: 15.5px;
     font-size: 23px;
     font-weight: 450;
 }
 
-.bioTriviaWork .bioTriv {
+.bioTriv {
     width: 64%;
     float: left;
     background-color: white;
@@ -434,17 +440,16 @@ h3 {
     overflow: hidden;
 }
 
-.bioTriviaWork .bioTriv p {
+.bioTriv p {
     margin: 20px 0;
     line-height: 1.6em;
     font-size: 16.5px;
     margin-bottom: 35px;
     font-weight: 300;
     letter-spacing: 0.2px;
-
 }
 
-.bioTriviaWork .bioTriv i {
+.bioTrivMore {
     position: absolute;
     right: 20px;
     bottom: 20px;
@@ -452,44 +457,45 @@ h3 {
     font-weight: bold;
 }
 
-.bioTriviaWork .workHist {
+.workHist {
     width: 29%;
     float: left;
-    padding: 30px;
+    padding: 30px 10px 30px 30px;
 }
 
-.bioTriviaWork .workHist ul {
+.workHist ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.bioTriviaWork .activeJob .workTitle {
+.workInfo {
+    padding: 0;
+    margin: 0;
+    color: gray;
+}
+
+.activeJob .workTitle {
     margin-bottom: 5px;
     font-size: 18px;
     font-weight: 500;
     color: #252525;
 }
 
-.bioTriviaWork .activeJob .workInfo {
-    padding: 0;
-    margin: 0;
+
+.activeJob .workInfo {
     font-size: 13px;
-    color: gray;
 }
 
-.bioTriviaWork .pastJob .workTitle {
+.pastJob .workTitle {
     margin-bottom: 5px;
     font-size: 16px;
     color: gray;
     font-weight: bolder;
 }
 
-.bioTriviaWork .pastJob .workInfo {
-    padding: 0;
-    margin: 0;
+.pastJob .workInfo {
     font-size: 12px;
-    color: gray;
 }
 
 
@@ -504,7 +510,7 @@ h3 {
     font-weight: normal;
 }
 
-.skills h1 {
+.skillsHeader {
     color: #E737BA;
     font-size: 2em;
     font-weight: normal;
@@ -512,13 +518,13 @@ h3 {
     margin-bottom: 10px;
 }
 
-.skills h3.subtitle {
+.skillsHeadersubtitle {
     padding: 0;
     margin: 0;
     color: #525252;
 }
 
-.skills .skillBar {
+.skillBar {
     height: 25px;
     float: left;
     vertical-align: middle;
@@ -526,16 +532,16 @@ h3 {
     margin-top: 55px;
     margin-bottom: 40px;
     padding: 2px 10px 0 10px;
-    font-weight: bold;
+    
 }
 
-.skills .skillBarLeft {
+.skillBarLeft {
     width: 69%;
     background-color: #FC5E5F;
     text-align: left;
 }
 
-.skills .skillBarRight {
+.skillBarRight {
     width: 30%;
     background-color: #4a70eb;
     text-align: right;
@@ -550,28 +556,28 @@ h6 {
     font-weight: normal;
 }
 
-.skills figure {
-    position: relative;
-    margin: 0 0 120px 0;
-    width: 400px;
-}
-
-.skills .redHeader {
+.redHeader {
     margin-bottom: 65px;
     color: #FC5E5F;
     font-size: 20px;
 }
 
-.skills .blueHeader {
+.blueHeader {
     margin-bottom: 65px;
     color: #4A70EB;
     font-size: 20px;
 }
 
-.skills .grayHeader {
+.grayHeader {
     margin-bottom: 65px;
     color: #010101;
     font-size: 20px;
+}
+
+.skills figure {
+    position: relative;
+    margin: 0 0 120px 0;
+    width: 400px;
 }
 
 .skills figure ul {
@@ -593,66 +599,81 @@ h6 {
     margin-bottom: 0px;
 }
 
-.skills .graph {
+.graph {
     border-bottom: 1px solid gray;
 }
 
-.skills label {
-    text-align: left;
-    font-size: 10px;
+.graph ul {
+    text-align: right;
+    list-style: none;
+    margin-top: -5px;
+    margin-right: 25px;
+    padding: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.skills .barHolder {
+.graph ul li {
+    margin-bottom: 33px;
+    font-size: 13.5px;
+}
+
+.graph ul li:last-child {
+    margin-bottom: 0px;
+}
+
+
+.barHolder {
     display: inline-block;
     padding: 0;
     margin: 0;
     position: relative;
 }
 
-.skills .bar {
+.bar {
     display: inline-block;
     width: 34px;
     margin-right: 20px;
     margin-bottom: -5px;
 }
 
-.skills .orangeBar {
+.orangeBar {
     background-color: #FFAC42;
 }
 
-.skills .blueBar {
+.blueBar {
     background-color: #38B9F0;
 }
 
-.skills .greenBar {
+.greenBar {
     background-color: #6AD12C;
 }
 
-.skills .pinkBar {
+.pinkBar {
     background-color: #FA8AB0;
 }
 
-.skills .yellowBar {
+.yellowBar {
     background-color: #F0E210;
 }
 
-.skills .expertBar {
+.expertBar {
     height: 185px;
 }
 
-.skills .proficientBar {
+.proficientBar {
     height: 135px;
 }
 
-.skills .competentBar {
+.competentBar {
     height: 90px;
 }
 
-.skills .learningBar {
+.learningBar {
     height: 40px;
 }
 
-.skills label {
+.barLabel {
     color: gray;
     padding: 0;
     position: absolute;
@@ -685,28 +706,43 @@ h6 {
     padding-top: 50px;
 }
 
-.tweetsArticlesComments .highlightScrollBox{
+.highlightScrollBox {
+    float: left;
+    width: 30%;
+    margin-right: 20px;
+}
+
+.highlightScrollBox:last-child {
+    margin-right: 0px;
+}
+
+.scrollBox {
+    height: 480px;
+    padding-left: 30px;
+}
+
+.tweetsArticlesComments .highlightScrollBox {
     position: relative;
     height: 480px;
 }
 
-.scrollBox {
-
-}
-
-.tweetsArticlesComments #tweets h2,
-#articles h2,
-#commentsAnswers h2 {
+.tweetsArticlesComments .tweets h2,
+.articles h2,
+.commentsAnswers h2 {
     margin-left: 25px;
 }
 
-.scrollBox{
+.scrollBox {
     padding-right: 5px;
     padding-top: 20px;
 }
 
-.tweetsArticlesComments .scrollList {
-    overflow: scroll;
+.scrollBox ul {
+    list-style: none;
+}
+
+.scrollList {
+    overflow-y: scroll;
     overflow-x: hidden;
     height: 400px;
     margin: 0;
@@ -714,25 +750,30 @@ h6 {
     width: 100%;
 }
 
-.tweetsArticlesComments #tweets .scrollList {
-    
+.loadMore {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 450;
 }
 
-.tweetsArticlesComments #tweets .scrollList li {
+.tweetsScrollList li {
     height: 80px;
 }
 
-.tweetsArticlesComments #tweets li::last-child {
+.tweetsScrollList li::last-child {
     padding-bottom: 0;
 }
 
-#tweets .addTwitter{
+.addTwitter {
     width: 145px;
     height: 25px;
     color: white;
-    background-color: #34B7E5; 
+    background-color: #34B7E5;
     border: none;
-    
     font-size: 12.5px;
     font-weight: 500;
     padding: 1px;
@@ -741,33 +782,34 @@ h6 {
     position: absolute;
     right: 25px;
     top: 25px;
-} 
-#tweets h2{
+}
+
+.tweetsHeader {
     display: inline-block;
 }
-#tweets button.addTwitter i{
+
+.tweets button.addTwitter i {
     margin-left: 5px;
     margin-right: 3px;
-} 
+}
 
-#tweets button.addTwitter i{
+.addTwitter i {
     margin-left: 5px;
     margin-right: 3px;
-} 
+    color: white;
+}
 
-#twitterButtonGray{
+#twitterButtonGray {
     color: #B6E5F9;
 }
 
-.scrollBox ul {
-    list-style: none;
-}
 
-#tweets .scrollBox .scrollList {
+
+.tweets .scrollBox .scrollList {
     border-bottom: 1px solid #9fe1f3;
-
 }
-#tweets .scrollList hr{
+
+.tweets .scrollList hr {
     clear: both;
     border: none;
     height: 1px;
@@ -776,7 +818,7 @@ h6 {
     margin-top: 10px;
 }
 
-#tweets .loadMore {
+.tweets .loadMore {
     color: #46b9d5;
     text-align: center;
 }
@@ -796,7 +838,6 @@ h6 {
     font-size: 15px;
     padding: 0;
 }
-
 
 .tweetBody h4 {
     margin-bottom: 4px;
@@ -823,17 +864,16 @@ h6 {
     color: #839AA5;
     font-size: 13px;
     font-weight: 500;
-
 }
 
-.tweetDateStamp{
+.tweetDateStamp {
     list-style: none;
     padding: 0;
     margin: 0;
     border: none;
 }
 
-.tweetDateStamp li{
+.tweetDateStamp li {
     display: inline;
     border: none;
     margin-right: 40px;
@@ -841,7 +881,7 @@ h6 {
     font-weight: normal;
 }
 
-.tweetDateStamp li i{
+.tweetDateStamp li i {
     color: #9EB4C1;
     font-weight: bolder;
 }
@@ -850,34 +890,22 @@ h6 {
     text-decoration: none;
 }
 
-.tweetsArticlesComments .highlightScrollBox {
-    float: left;
-    width: 30%;
-    margin-right: 20px;
-}
 
-.tweetsArticlesComments .highlightScrollBox:last-child {
-    margin-right: 0px;
-}
 
-.tweetsArticlesComments .scrollBox {
-    height: 480px;
-    padding-left: 30px;
-}
-
-#tweets .scrollBox {
+.tweets .scrollBox {
     background-color: #EDFBFE;
     width: 100%;
 }
 
-#articles  ul.scrollList>li {
-    margin: 13px 0;
+.articles .scrollList > li {
+    margin: 15px 0;
     width: 85%;
 }
 
-.articleYear, .commentYear {
+.articleYear,
+.commentYear {
     color: #525252;
-    font-size: 18.5px;
+    font-size: 19px;
     font-family: 'Roboto', serif;
     margin: 0 0 5px 0;
     font-weight: 500;
@@ -895,82 +923,74 @@ h6 {
     color: #A5AAB0;
     font-size: 12.5px;
     font-weight: 550;
-    
-    padding: 2px 0;
+    padding: 4px 0;
 }
 
-.articleInfo  li{
+.articleInfo li {
     display: inline;
     color: #A5AAB0;
     font-size: 12.5px;
     font-weight: 550;
     margin-right: 20px;
-    padding: 2px 0;
-}
-
-.loadMore {
-    text-align: center;
-    height: 50px;
-    width: 100%;
-    vertical-align: middle;
-    margin: 0;
-    font-size: 14px;
-    font-weight: 450;
+    padding: 4px 0;
+    margin-top: 30px;
 }
 
 
-#articles .loadMore {
+
+.articles .loadMore {
     color: #92a3e5;
 }
 
-#commentsAnswers .loadMore {
-    color: #B693F6;
-}
 
 
-
-#articles .scrollList {
+.articles .scrollList {
     border-bottom: 1px solid #92a3e5;
 }
 
-#articles .scrollBox {
+.articles .scrollBox {
     background-color: #F1F8FF;
     width: 100%;
 }
 
-#commentsAnswers .scrollBox {
+.commentsAnswers .scrollBox {
     background-color: #F9F3FF;
     width: 100%;
 }
 
-#commentsAnswers hr {
+.commentsAnswers hr {
     border: none;
     height: 1px;
     background-color: lightgray;
     margin: 12px 0;
-
 }
 
-#commentsAnswers .scrollList {
+.commentsAnswers .scrollList {
     color: #38353E;
     border-bottom: 1px solid #DACBF4;
 }
 
-#commentsAnswers ul li {
+.commentsAnswers ul li {
     padding-right: 20px;
     padding-bottom: 5px;
 }
 
+.commentsAnswers .loadMore {
+    color: #B693F6;
+}
+
 .commentContent {
     font-size: 15px;
-    padding: 5px 0;
+    padding-top: 5px;
+    padding-bottom: 2px;
     line-height: 1.5em;
+    margin-bottom: 0;
 }
 
 .commentInfo {
-   list-style: none;
-   padding: 0;
-   border: none;
+    list-style: none;
+    padding: 0;
+    border: none;
 }
 
 .commentInfo li {
@@ -980,32 +1000,28 @@ h6 {
     display: inline;
 }
 
-    
-.scrollBox ::-webkit-scrollbar {
+.scrollList::-webkit-scrollbar{
     width: 5px;
-    background-color: rgba(0,0,0,0.0);
+    background-color: rgba(0, 0, 0, 0.0);
 }
- 
-.scrollBox ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.0); 
+
+.scrollList::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.0);
     border-radius: 10px;
 }
- 
-.scrollBox ::-webkit-scrollbar-thumb {
+
+.scrollList::-webkit-scrollbar-thumb {
     border-radius: 30px;
-    
-    
 }
 
-#tweets ::-webkit-scrollbar-thumb{
-    background-color:  #ADDEE6;
+.tweets .scrollList::-webkit-scrollbar-thumb {
+    background-color: #ADDEE6;
 }
 
-#articles ::-webkit-scrollbar-thumb{
-    background-color:  #AFC9EA;
+.articles .scrollList::-webkit-scrollbar-thumb {
+    background-color: #AFC9EA;
 }
 
-#commentsAnswers ::-webkit-scrollbar-thumb{
-    background-color:  #D8C8F5;
+.commentsAnswers .scrollList::-webkit-scrollbar-thumb {
+    background-color: #D8C8F5;
 }
-
