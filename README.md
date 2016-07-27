@@ -1,6 +1,5 @@
 # MD-Encyclopedia-Profiles
-MD Encyclopedia Profiles UI Design Group Project 
-
+MD Encyclopedia Profiles UI Design Group Project [Live Page](http://btmbtm.github.io/MD-Encyclopedia-Profiles/)
 ## Roles
 - Brian M. 
   1. HTML/CSS Design for Encyclopedia Profile Sections: 
